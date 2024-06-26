@@ -6,7 +6,7 @@ links: [[themes/000 Index|Index]]
 
 ---
 
-- **Topic 01**: [[themes/901 ED TOC - Topic|Introduction]]
+- **Topic 01**: [[901 ED TOC - Introduction|Introduction]]
 - **Topic 02**: [[themes/902 ED TOC - Intel Architecture|Intel Architecture]]
 - **Topic 03**: [[themes/903 ED TOC - Memory Layout|Memory Layout]]
 - **Topic 04**: [[themes/904 ED TOC - Assembler|Assembler]]
