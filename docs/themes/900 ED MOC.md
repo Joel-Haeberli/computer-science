@@ -14,7 +14,7 @@ links: [[themes/000 Index|Index]]
 - **Topic 06**: [[Function Calls|Function Calls]]
 - **Topic 07**: [[themes/907 ED TOC - Debugging|Debugging]]
 - **Topic 08**: [[themes/908 ED TOC - C Arrays|C Arrays]]
-- **Topic 09**: [[themes/909 ED TOC - Buffer Overflow|Buffer Overflow]]
+- **Topic 09**: [[Buffer Overflow|Buffer Overflow]]
 - **Topic 10**: [[themes/910 ED TOC - Buffer Overflow Exploit|Buffer Overflow Exploit]]
 - **Topic 11**: [[themes/911 ED TOC - Remote Exploit|Remote Exploit]]
 - **Topic 12**: [[themes/912 ED TOC - Exploit Mitigations|Exploit Mitigations]] (Maybe split into multiple)
