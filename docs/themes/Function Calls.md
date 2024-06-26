@@ -14,6 +14,9 @@ Stores the start of the current stack frame. The current stack frame is just the
 **EIP (Instruction Pointer)**
 Points to the next instruction to be executed
 
+**ESP (Stack Pointer**
+Points to the bottom of the stack
+
 ## Function call step by step
 
 ![[Pasted image 20240626125227.png]]
