@@ -1,6 +1,6 @@
 tags: #exploiting #secure-coding #fuzzing #hardware-exploitation #cfi
 
-# ED TOC - Topics 0x7x
+# ED TOC - Further Topics
 
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 
@@ -11,6 +11,8 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 - [[CFI]]
 - [[Shadow Stack]]
 - [[themes/Hardware Exploitation|Hardware Exploitation]]
+- [[themes/Browser Exploitation|Browser Exploitation]]
+- [[Attacks|Attacks]]
 
 ---
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]

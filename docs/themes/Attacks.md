@@ -2,13 +2,14 @@ tags: #attacks
  
 # Attacks
 
-links: [[916 ED TOC - Additional|ED TOC - Additional]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]
 
 ---
 
 ## OpNasaDrones - Anonsec
 
 The OpNASADrones hack, claimed by the hacking group AnonSec, involved purportedly infiltrating NASA’s network and obtaining a trove of sensitive data, including drone flight logs and personal information of NASA employees.
+
 ## gamma
 
 The Gamma hack in 2014, executed by the hacktivist known as Phineas Fisher, targeted the surveillance technology company Gamma International, which is known for its FinFisher spyware used by governments for surveillance. The breach resulted in the release of 40 gigabytes of internal data, including source code, client lists, pricing information, and other sensitive documents. This data was subsequently made publicly available, highlighting the company’s dealings with various governments and the invasive nature of their surveillance tools.
@@ -32,4 +33,4 @@ The Hacking Team attack in 2015 was a significant breach of an Italian company k
 - **Verify**: perform penetration tests!
 
 ---
-links: [[916 ED TOC - Additional|ED TOC - Additional]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]

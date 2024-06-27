@@ -2,7 +2,7 @@ tags: #exploiting #secure-coding
  
 # Secure Coding
 
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -46,4 +46,4 @@ There are different weaknesses:
 ![[integer-overflow.png]]
 
 ---
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]

@@ -2,7 +2,7 @@ tags: #mitigation #cfi
  
 # CFI (Control Flow Integrity)
 
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -65,4 +65,4 @@ The granularity of CFI enforcement can be influenced by the specific compiler fl
     - These attacks manipulate the program’s execution flow without changing the code itself; instead, they alter the data used by the program to influence its behavior. Since traditional CFI mechanisms primarily focus on ensuring that the flow between code points (such as functions) is legitimate, they might not protect against attacks that solely modify data values or states to achieve malicious outcomes.
 
 ---
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]

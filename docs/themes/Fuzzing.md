@@ -2,7 +2,7 @@ tags: #exploiting #fuzzing
  
 # Fuzzing
 
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -70,4 +70,4 @@ There are compiler options to enable advanced error detection routines
 - **UndefinedBehaviourSanitizer (Bsan)**: a runtime checker for C/C++ programs that detects undefined behavior such as integer overflows, null pointer dereferences, and incorrect type casts $\rightarrow$ for testing only
 
 ---
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]

@@ -2,7 +2,7 @@ tags: #mitigation #shadow #stack
  
 # Shadow Stack
 
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]
 
 ---
 
@@ -15,4 +15,4 @@ Shadow Stack is a separate stack which stores all return addresses. On every CAL
 
 
 ---
-links: [[915 ED TOC - Topics 0x7x|ED TOC - Topics 0x7x]] - [[themes/000 Index|Index]]
+links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index]]
