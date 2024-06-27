@@ -8,7 +8,68 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 
 ## Introduction
 
-// ToDo technical introduction slides
+**Code vs. Data**
+
+- There is no inherent difference between code and data from a computer’s perspective. Code can be data and vice versa, depending on how it is interpreted.
+
+ **What is a picture**
+ 
+* Just data for the computer
+* When interpreted correctly, displays something
+* When interpreted wrongly, displays garbage / crashes
+* When interpreted wrongly in the right way, let's us hack a computer
+* Is it possible to create an image which executes code
+	* Yes: Intentional as a feature or non intentional as an exploit
+	* How: Make the original program (code) execute our (the attackers) own code (data) by writing into memory locations at runtime which influence where code is being read from
+
+**What is an Exploit?**
+
+- An exploit is a method or tool that takes advantage of a vulnerability in software to make the program behave in unintended ways. Exploits can be categorized as local, remote, or client-side depending on where and how they are executed.
+
+**Types of Vulnerabilities**
+
+- **Memory Corruption**: Errors in memory management, common in languages like C and C++, can lead to crashes or arbitrary code execution.
+- **Authentication and Authorization**: Flaws that allow unauthorized access.
+- **Configuration Errors, Input Validation, Logic Errors, etc.**: Various other categories that can be exploited to gain control over a system.
+
+**Memory Corruption**
+
+- This occurs when a program unintentionally modifies memory. When this corrupted memory is later used, it can cause crashes or unpredictable behavior.
+- Example vulnerabilities: buffer overflows, use-after-free bugs.
+
+**Exploiting Memory Corruption**
+
+- Exploits often involve injecting code into a running program to make it execute unintended instructions. This can be done through manipulating memory, such as overwriting return addresses or function pointers.
+
+**Local, Remote, and Client-Side Exploits**
+
+- **Local Exploit**: The attacker already has access to the system and seeks higher privileges (e.g., user to root).
+- **Remote Exploit**: The attacker interacts with server software over a network to execute code on the server.
+- **Client-Side Exploit**: The attacker manipulates data that a client application processes to execute code on the client machine.
+
+**Vulnerable Software**
+
+- Software written in low-level languages like C and C++ is more susceptible to memory corruption.
+- Interpreted languages like PHP, Python, and JavaScript are generally safer, but the interpreters themselves (often written in C/C++) can be vulnerable.
+- Memory safe languages like Rust and Go are safer.
+
+**Weird Machines**
+
+- Exploits often create "weird machines" where crafted input causes a program to execute unintended instructions, essentially forming a new, unintended computational system within the original program.
+
+**Definition of a program**
+
+> A program is a set of instructions which is controlled by data
+
+Data is manipulating the instruction flow of a program, not the other way round.
+
+**Philosophy and History of Exploits**
+- **Morris Worm**: One of the first worms, exploiting a buffer overflow in the fingerd program to spread itself.
+- **L0pht**: A hacker group that famously claimed they could take down the internet in 30 minutes, highlighting the vulnerabilities in critical infrastructure.
+
+**Hacking**
+
+Exploit writing is considered a form of hacking as it involves modifying or using software in unintended ways to demonstrate technical skill or achieve specific goals. Hack value is associated with using things uniquely outside their intended purpose. The practice includes feats like using a dot matrix printer for music or a coffee machine for soup. Hacking definitions include skillfully modifying programs or devices and circumventing security with often malicious intent. Hacker ethics emphasize free access to computers and information, skepticism towards authority, and improving the world through technology. The "Conscience of a Hacker" manifesto captures the hacker's quest for knowledge and the desire to overcome technological challenges.
 
 ## Notes for the exam
 
@@ -62,9 +123,9 @@ Exam relevant example questions with answers:
    | ----------- | ------------------------- | --------------------------------------- |
    | 0x7FFF FFF0 | Return Address            | Address to return after function call   |
    | 0x7FFF FFEC | Saved Frame Pointer (SFP) | Previous frame pointer (if any)         |
-   | 0x7FFF FFE8 | Local Variable: `result`  | Storage for the local variable `result` |
-   | 0x7FFF FFE4 | Parameter: `b`            | Second argument `b`                     |
-   | 0x7FFF FFE0 | Parameter: `a`            | First argument `a`                      |
+   | 0x7FFF FFE8 | Parameter: `a`  | First argument `a` |
+   | 0x7FFF FFE4 | Parameter: `b`   | Second argument `b` |
+   | 0x7FFF FFE0 |  Local Variable: `result`  | Storage for the local variable `result` |
 
 8. **What programs can be attacked with an exploit?**
 	* Principally any that accept attacker-supplied data and are written in C/C++.
@@ -113,7 +174,7 @@ NOT (necessarily) exam relevant example questions:
 	* General-purpose registers (e.g., EAX, EBX), special-purpose registers (e.g., EIP/RIP, ESP/RSP), used for data storage, addressing, and control flow.
 
 10. **What are the sections in an ELF file for?**
- 	* Code (.text), data (.data), uninitialized data (.bss), metadata (.rodata), and linking information.
+	* Code (.text), data (.data), uninitialized data (.bss), metadata (.rodata), and linking information.
 
 #### Exploit Mitigation Related 
 
@@ -149,9 +210,9 @@ NOT (necessarily) exam relevant example questions:
 	* Find another bug instead of a simple stack-based buffer overflow.
 
 10. **Which part of the exploit defeats ASLR/DEP/Stack Canary?**
- 	* **ASLR**: Information disclosure or exploiting non-ASLR areas.
- 	* **DEP**: Using Ret2plt or ROP techniques.
- 	* **Stack Canary**: Brute force or information disclosure.
+	* **ASLR**: Information disclosure or exploiting non-ASLR areas.
+	* **DEP**: Using Ret2plt or ROP techniques.
+	* **Stack Canary**: Brute force or information disclosure.
 
 #### Memory Corruption Related
 
