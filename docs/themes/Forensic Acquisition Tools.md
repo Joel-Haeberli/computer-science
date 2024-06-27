@@ -14,7 +14,7 @@ links: [[702 DF TOC - Storage & Acquisition|DF TOC - Storage & Acquisition]] and
 
 ## Confirm Attached Evidence Drive
 
-Double-checking source and destination devices is critical in forensic investigations to ensure the integrity and accuracy of data acquisition.
+**Double-checking source and destination devices** is critical in forensic investigations to ensure the integrity and accuracy of data acquisition.
 
 **Commands to Identify Attached Drives**
 
@@ -112,4 +112,4 @@ Forensic variations of `dd` have been developed to include additional features s
 - Tools: `fsstat`, `disktype`.
 
 ---
-links: [[702 DF TOC - Storage & Acquisition|DF TOC - Storage & Acquisition]] and [[707 DF TOC - Labs & Tools|DF TOC - Labs & Tools]]- [[themes/000 Index|Index]]
+links: [[702 DF TOC - Storage & Acquisition|DF TOC - Storage & Acquisition]] and [[707 DF TOC - Labs & Tools|DF TOC - Labs & Tools]] - [[themes/000 Index|Index]]

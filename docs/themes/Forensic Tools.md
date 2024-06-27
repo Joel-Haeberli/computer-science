@@ -28,10 +28,10 @@ links: [[707 DF TOC - Labs & Tools|DF TOC - Labs & Tools]] - [[themes/000 Index|
 * **dc3dd**: A forensic disk imaging tool similar to `dd` but with additional features such as data verification and logging.
 * **dcfldd**: An enhanced version of `dd` developed by the U.S. Department of Defense Computer Forensics Lab (DCFL). It includes features like progress indicators and multiple output files.
 * **sfsimage**: A forensic imaging tool that captures images of filesystems.
-* **ewfacquire**: Part of the EWF (Expert Witness Format) toolkit, used for acquiring disk images in the EWF format.
+* **ewfacquire**: Part of the [[[[Forensic Acquisition#Popular Forensic Formats|EWF]] (Expert Witness Format) toolkit, used for acquiring disk images in the EWF format.
 * **ftkimager**: A data imaging utility that allows the creation of forensic images of local hard drives, CDs, DVDs, and USB devices.
 * **guymager**: An open-source forensic imager for media acquisition. It provides a graphical user interface and supports various image formats.
-* **foremost**: A file carving tool that recovers files based on their headers, footers, and internal data structures.
+* **foremost**: A file [[carving]] tool that recovers files based on their headers, footers, and internal data structures.
 * **bulk_extractor**: A tool that scans disk images, files, or directories to extract useful information such as email addresses, URLs, and other artifacts.
 * **lshw**: Lists detailed information about the hardware configuration of the system.
 * **lspci**: Displays information about PCI buses and the devices connected to them.

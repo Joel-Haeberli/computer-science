@@ -1,4 +1,4 @@
-tags: 
+tags: #exploiting #defense
 
 # Exploiting and Defense MOC
 

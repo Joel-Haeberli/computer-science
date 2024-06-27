@@ -1,4 +1,4 @@
-tags: #information-security #general #introduction #
+tags: #information-security #general #introduction 
 
 # ED TOC - Introduction
 
