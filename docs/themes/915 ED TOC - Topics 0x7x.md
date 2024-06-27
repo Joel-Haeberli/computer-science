@@ -1,4 +1,4 @@
-tags: #secure-coding #fuzzing #hardware-exploitation 
+tags: #exploiting #secure-coding #fuzzing #hardware-exploitation #cfi
 
 # ED TOC - Topics 0x7x
 
