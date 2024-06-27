@@ -1,13 +1,12 @@
-tags: #shellcode #syscalls 
+tags: #secure-code
 
-# ED TOC - Shellcode
+# ED TOC - Topics 0x7x
 
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 
 ---
 
-- [[Shellcode]]
-- [[themes/Syscalls|Syscalls]]
+- [[themes/Secure Coding|Secure Coding]]
 
 ---
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]

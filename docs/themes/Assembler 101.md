@@ -1,4 +1,4 @@
-tags: #debugging
+tags: #debugging #asm
 
 # Assembler 101
 
