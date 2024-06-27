@@ -20,9 +20,8 @@ links: [[themes/000 Index|Index]]
 - **Topic 12**: [[themes/912 ED TOC - Exploit Mitigations|Exploit Mitigations]]
 - **Topic 13**: [[themes/913 ED TOC - Defeat Exploit Mitigations|Defeat Exploit Mitigations]]
 - **Topic 14**: [[themes/Windows Exploiting|Windows Exploiting]]
-- **Topic 15**: [[themes/915 ED TOC - Topics 0x7x|Topics 0x7x]] (Secure Coding, Hardware Hacking, Fuzzing, CFI)
+- **Topic 15**: [[themes/915 ED TOC - Topics 0x7x|Further Topics]]
 - **Topic 16**: [[themes/916 ED TOC - Additional|Additional]] (Slides 0xAx)
-- **Topic 17**: [[themes/917 ED TOC - Labs|Labs]]
 
 ---
 links: [[themes/000 Index|Index]]
