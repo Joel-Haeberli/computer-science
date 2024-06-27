@@ -19,7 +19,7 @@ Points to the bottom of the stack
 
 ## Function call step by step
 
-![[Pasted image 20240626125227.png]]
+![[function-call.png]]
 
 1. Main method starts and `blubb`is pushed to the stack (function arg)
 2. `foobar` is called (Assembler `call` instruction is executed)
