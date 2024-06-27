@@ -17,8 +17,8 @@ links: [[themes/000 Index|Index]]
 - **Topic 09**: [[Buffer Overflow|Buffer Overflow]]
 - **Topic 10**: [[themes/910 ED TOC - Buffer Overflow Exploit|Buffer Overflow Exploit]]
 - **Topic 11**: [[themes/911 ED TOC - Remote Exploit|Remote Exploit]]
-- **Topic 12**: [[themes/912 ED TOC - Exploit Mitigations|Exploit Mitigations]] (Maybe split into multiple)
-- **Topic 13**: [[themes/913 ED TOC - Defeat Exploit Mitigations|Defeat Exploit Mitigations]] (Maybe split into multiple)
+- **Topic 12**: [[themes/912 ED TOC - Exploit Mitigations|Exploit Mitigations]]
+- **Topic 13**: [[themes/913 ED TOC - Defeat Exploit Mitigations|Defeat Exploit Mitigations]]
 - **Topic 14**: [[themes/Windows Exploiting|Windows Exploiting]]
 - **Topic 15**: [[themes/915 ED TOC - Topics 0x7x|Topics 0x7x]] (Secure Coding, Hardware Hacking, Fuzzing, CFI)
 - **Topic 16**: [[themes/916 ED TOC - Additional|Additional]] (Slides 0xAx)
