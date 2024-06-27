@@ -26,7 +26,7 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 - 600s - #network #security-tool #security-protocol
 - 700s - #DF
 - 800s -
-- 900s -
+- 900s - #exploiting #asm #shellcode
 - Computability and Complexity - #computability-complexity 
 
 [^1]: Introduction to Modern Cryptography, Third Edition (Chapman & Hall/Crc Cryptography and Network Security) by Jonathan Katz and Yehuda Lindell (ISBN: 780815354369)

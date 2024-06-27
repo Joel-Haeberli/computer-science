@@ -27,7 +27,7 @@ Equipping your library with an Index, Maps, and other fluid Frameworks enhances 
 ### MOC
 
 - MOCs are “overlays” that add relevant information but that don't affect the base content. 
-- MOCs are not hierarchical like a table of contents. They are [[https://en.wikipedia.org/wiki/Heterarchy|heterarchial]]. Meaning, you can have multiple maps organizing the same info in different ways to fit whatever persepective the note is for.
+- MOCs are not hierarchical like a table of contents. They are [heterarchial](https://en.wikipedia.org/wiki/Heterarchy). Meaning, you can have multiple maps organizing the same info in different ways to fit whatever persepective the note is for.
 
 ---
 links: [[themes/000 Index|Index]]
