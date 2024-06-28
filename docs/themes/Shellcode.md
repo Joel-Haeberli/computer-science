@@ -64,6 +64,8 @@ xor eax, eax
 mov 0x04, al
 ```
 
+![[null-byte.png]]
+
 ## Fix Stack Reference
 
 - We cannot reference a string from the data section, we only execute code
