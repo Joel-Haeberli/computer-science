@@ -1,4 +1,4 @@
-tags: #exploit #C #buffer #overflow
+tags: #exploit #c #buffer #overflow
  
 # Buffer Overflow
 
@@ -53,5 +53,4 @@ The program will print that the user is Admin and normally the program would jum
 Here the `leave` call was just executed ([[Function Calls]]). The overwritten `ebp` was popped which means the `ebp`register now contains the address `0x41/0x41/0x41/0x41` and the `esp` now points to the overwritten return address. The next call after `leave`is `ret`which will execute the code at the overwritten address.
 
 ---
-
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
