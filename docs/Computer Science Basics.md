@@ -1,4 +1,4 @@
-tags: 
+tags: #cpu #intel 
 
 # Computer Science Basics
 
@@ -20,6 +20,7 @@ Computers operate using the von Neumann architecture, where the CPU reads and wr
 - **Harvard Architecture**: Separate memory spaces for instructions and data, more complex design, generally faster operation due to parallel access.
 
 The von Neumann architecture remains popular today due to its simplicity, flexibility, compatibility, and established ecosystem. Despite its bottleneck limitation, technological advancements have mitigated its impact, making von Neumann systems effective for many applications.
+
 ## CPU Registers
 
 Registers are fast, small storage locations within the CPU used for immediate data access. They can store data, memory addresses, and control information, and are crucial for performing computations, reading/writing memory, and executing instructions. It's not possible to write from memory to the memory directly. Always done over a register. Common registers include:
@@ -56,6 +57,7 @@ Cycles needed to access data:
 * They can be 32 bit (EAX) or 64 bit (RAX)
 * Some registers are multi-purpose
 * Some registers are special (RIP, RBP, RSP)
+
 ## CPU Instructions
 
 The CPU executes instructions in a **fetch-decode-execute** cycle. Instructions are represented by opcodes in machine code and can perform operations like addition, subtraction, data movement, and logical operations. Assembler languages provide mnemonics for these opcodes to make programming more accessible
@@ -94,7 +96,7 @@ Numbers in computing can be represented in various formats:
 * Big Endian: `0x1B` `0x3F` $\rightarrow$ `0x1B3F`
 * Little Endian: `0x3F` `0x1B` $\rightarrow$ `0x3F1B`
 
-How 96 bits are stored in memory:
+How 96 bits are stored in memory (Little Endian):
 
 ![[memory.png]]
 
@@ -102,6 +104,7 @@ How 96 bits are stored in memory:
 
 * If we look at numbers in memory, we can’t know if they are 8, 16, 32 or 64 bit
 * We can try to interpret bytes as ASCII
+
 ## OS Basics
 
 Operating systems manage hardware resources and provide an interface for user applications. Key concepts include:
@@ -136,7 +139,6 @@ The transition from 32-bit to 64-bit architecture introduced several changes:
 	- 57 bit is coming
 - **Registers**: Expanded from 32-bit to 64-bit, allowing for more data to be processed per instruction.
 - **Compatibility**: 64-bit operating systems can run 32-bit applications, requiring a 32-bit runtime environment. However, 64-bit applications can take advantage of larger address spaces and improved performance.
-
 
 ---
 links: [[902 ED TOC - Intel Architecture|ED TOC - Intel Architecture]] - [[themes/000 Index|Index]]

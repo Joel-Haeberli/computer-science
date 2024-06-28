@@ -9,12 +9,15 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 ## Relevant Registers
 
 **EBP (Base Pointer)**
+
 Stores the start of the current stack frame. The current stack frame is just the stack that is used by the current method and the start needs to be stored somewhere.
 
 **EIP (Instruction Pointer)**
+
 Points to the next instruction to be executed
 
 **ESP (Stack Pointer**
+
 Points to the bottom of the stack
 
 ## Function call step by step
@@ -42,5 +45,4 @@ Points to the bottom of the stack
 		- `eip` now points to `return` in the main function again
 
 ---
-
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]

@@ -11,16 +11,16 @@ links: [[904 ED TOC - Assembler|ED TOC - Assembler]] - [[themes/000 Index|Index]
 Examples: (First line is Intel, second AT&T)
 
   ```assembly
-  mov eax, ebx  ; Move the value in ebx to eax
+  mov eax, ebx     ; Move the value in ebx to eax
   movl %ebx, %eax
 
-  add eax, 5  ; Add 5 to eax
+  add eax, 5       ; Add 5 to eax
   addl $5, %eax
 
-  mov eax, [ebx]  ; Move the value at the address in ebx to eax
+  mov eax, [ebx]   ; Move the value at the address in ebx to eax
   movl (%ebx), %eax
 
-  inc eax  ; Increment eax
+  inc eax          ; Increment eax
   incl %eax
   ```
 
@@ -60,7 +60,7 @@ test[3] = 9;
 Translates to:
 
 ```assembly
-sub esp, 0x10            ; Allocate 16 bytes on the stack for the array 'test'
+sub esp, 0x10                ; Allocate 16 bytes on the stack for the array 'test'
 mov byte ptr [ebp-0x5], 0x1  ; Set the first element of the array (test[0]) to 1
 mov byte ptr [ebp-0x2], 0x9  ; Set the fourth element of the array (test[3]) to 9
 ```
@@ -116,16 +116,16 @@ for(n=0; n<12; n++) {
 Translates to:
 
 ```assembly
-sub esp, 0x28            ; Allocate 40 bytes on the stack for the loop
+sub esp, 0x28                 ; Allocate 40 bytes on the stack for the loop
 mov dword ptr [ebp-0xc], 0x0  ; Initialize the loop counter (n) to 0
-jmp short loop_cond      ; Jump to the loop condition check
+jmp short loop_cond           ; Jump to the loop condition check
 loop_start:
 mov dword ptr [esp], 0x41     ; Move the ASCII value of 'A' (0x41) onto the stack
-call putchar             ; Call putchar to print 'A'
+call putchar                  ; Call putchar to print 'A'
 add dword ptr [ebp-0xc], 0x1  ; Increment the loop counter (n)
 loop_cond:
 cmp dword ptr [ebp-0xc], 0xb  ; Compare the loop counter with 11
-jle short loop_start     ; Jump to 'loop_start' if counter is less than or equal to 11
+jle short loop_start          ; Jump to 'loop_start' if counter is less than or equal to 11
 ```
 
 **Online Assemblers**
