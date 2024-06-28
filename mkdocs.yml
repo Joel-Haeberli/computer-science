@@ -106,6 +106,16 @@ nav:
     - 'Labs & Tools': 'themes/707 DF TOC - Labs & Tools.md'
   - 'Malware analysis and intelligence':
     - 'Index': 'themes/800 MAI MOC.md'
+    - 'Actors & Tools & Attacks': 'themes/801 MAI TOC - Actors & Tools & Attacks.md'
+    - 'Windows & OS background': 'themes/802 MAI TOC - Windows & OS background.md'
+    - 'Malware Execution': 'themes/803 MAI TOC - Malware Execution.md'
+    - 'Hooking': 'themes/804 MAI TOC - Hooking.md'
+    - 'Malware Persistence': 'themes/805 MAI TOC - Malware Persistence.md'
+    - 'Malware Identification': 'themes/806 MAI TOC - Malware Identification.md'
+    - 'Dynamic Analysis': 'themes/807 MAI TOC - Dynamic Analysis.md'
+    - 'Guest Lectures': 'themes/808 MAI TOC - Guest Lectures.md'
+    - 'Labs': 'themes/809 MAI TOC - Labs.md'
+    - 'Exam Cookbook': 'themes/810 MAI TOC - Exam Cookbook.md'
   - 'Exploiting and Defense':
     - 'Index': 'themes/900 ED MOC.md'
     - 'Introduction': 'themes/901 ED TOC - Introduction.md'
