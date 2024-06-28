@@ -64,6 +64,7 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 Data is manipulating the instruction flow of a program, not the other way round.
 
 **Philosophy and History of Exploits**
+
 - **Morris Worm**: One of the first worms, exploiting a buffer overflow in the fingerd program to spread itself.
 - **L0pht**: A hacker group that famously claimed they could take down the internet in 30 minutes, highlighting the vulnerabilities in critical infrastructure.
 
