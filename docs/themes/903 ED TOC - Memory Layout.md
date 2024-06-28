@@ -1,4 +1,4 @@
-tags: 
+tags: #memory
 
 # ED TOC - Memory Layout
 

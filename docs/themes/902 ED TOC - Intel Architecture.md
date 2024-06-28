@@ -1,4 +1,4 @@
-tags: 
+tags: #cpu #intel
 
 # ED TOC - Intel Architecture
 

@@ -1,4 +1,4 @@
-tags: 
+tags: #memory
 
 # Memory Layout
 
@@ -23,7 +23,7 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 - ELF files store program data and instructions in a standardized format. They replace the older "a.out" format and are similar to other executable formats like COFF and PE.
 	- **Types**: ET_EXEC (executable), ET_REL (relocatable), ET_DYN (shared object).
 	- **Views**:
-		- **Sections**: Logical divisions used by the compiler, like .text for executable instructions, .data for initialized data, and .bss for uninitialized data.
+		- **Sections**: Logical divisions used by the compiler, like `.text` for executable instructions, `.data` for initialized data, and `.bss` for uninitialized data.
 		- **Segments**: Physical divisions used by the loader, which map to memory regions. Each segment contains one or more sections.
 
 ![[elf_format.png]]
@@ -36,7 +36,7 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 	    - **LOAD**: Describes segments to be loaded into memory, with permissions like read, write, and execute.
 	    - **DYNAMIC**: Holds dynamic linking information.
 	    - **GNU_STACK**: Describes stack properties.
-- **Sections to Segments Mapping**: Sections like .text, .data, and .bss are mapped into segments like code, heap, and stack by the loader.
+- **Sections to Segments Mapping**: Sections like `.text`, `.data`, and `.bss` are mapped into segments like code, heap, and stack by the loader.
 
 ![[elf_mapping.png]]
 

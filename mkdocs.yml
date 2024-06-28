@@ -97,13 +97,13 @@ nav:
       - 'With Answers': 'themes/619 SPA TOC - Exam Questions with Answers.md'
   - 'Digital Forensics':
     - 'Index': 'themes/700 DF MOC.md'
-    - 'Forensics Basics & History': 'themes/701 DF TOC - Forensics Basics & History'
-    - 'Storage & Acquisition': 'themes/702 DF TOC - Storage & Acquisition'
-    - 'Analysis & Carving': 'themes/703 DF TOC - Analysis & Carving'
-    - 'Forensic Artifacts': 'themes/704 DF TOC - Forensic Artifacts'
-    - 'Encryption, Timelines & Find': 'themes/705 DF TOC - Encryption & Timelines & Find'
-    - 'Mobile Forensics': 'themes/706 DF TOC - Mobile Forensics'
-    - 'Labs & Tools': 'themes/707 DF TOC - Labs & Tools'
+    - 'Forensics Basics & History': 'themes/701 DF TOC - Forensics Basics & History.md'
+    - 'Storage & Acquisition': 'themes/702 DF TOC - Storage & Acquisition.md'
+    - 'Analysis & Carving': 'themes/703 DF TOC - Analysis & Carving.md'
+    - 'Forensic Artifacts': 'themes/704 DF TOC - Forensic Artifacts.md'
+    - 'Encryption, Timelines & Find': 'themes/705 DF TOC - Encryption & Timelines & Find.md'
+    - 'Mobile Forensics': 'themes/706 DF TOC - Mobile Forensics.md'
+    - 'Labs & Tools': 'themes/707 DF TOC - Labs & Tools.md'
   - 'Malware analysis and intelligence':
     - 'Index': 'themes/800 MAI MOC.md'
   - 'Exploiting and Defense':

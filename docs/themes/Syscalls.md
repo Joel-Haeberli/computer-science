@@ -27,11 +27,11 @@ links: [[905 ED TOC - Shellcode|ED TOC - Shellcode]] - [[themes/000 Index|Index]
 Example of `write()` syscall:
 
 ```assembly
-mov eax, 4    // write()
-mov ebx, 1    // int fd
-mov ecx, msg  // char *msg
-mov edx, 9    // unsigned int len
-int 0x80      // invoke syscall
+mov eax, 4    ; write() syscall number
+mov ebx, 1    ; int fd (stdout)
+mov ecx, msg  ; char *msg
+mov edx, 9    ; unsigned int len
+int 0x80      ; invoke syscall
 ```
 
 Arguments:

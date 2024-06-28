@@ -1,4 +1,4 @@
-tags: #debugging 
+tags: #debugging #gdb
 
 # ED TOC - Debugging
 
