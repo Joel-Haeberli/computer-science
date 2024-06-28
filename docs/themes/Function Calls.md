@@ -1,4 +1,4 @@
-tags: #exploit #C #function
+tags: #exploit #c #function
  
 # Function Calls
 

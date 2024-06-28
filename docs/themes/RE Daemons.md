@@ -1,4 +1,4 @@
-tags: #exploting
+tags: #exploiting
 
 # RE Daemons
 
@@ -76,5 +76,4 @@ Daemons are background processes that manage services on a server, crucial for r
 ![[remote-exploit_daemon.png]]
 
 ---
-
 links: [[911 ED TOC - Remote Exploit|ED TOC - Remote Exploit]] - [[themes/000 Index|Index]]
