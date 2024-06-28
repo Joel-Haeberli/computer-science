@@ -16,7 +16,7 @@ Control Flow Integrity (CFI) is a security technique designed to prevent unautho
 
 CFI works by placing checks throughout the program to ensure that the execution flow at runtime follows only the legitimate paths predicted by the program’s control flow graph, which is typically computed at compile time. Any deviation from these predefined paths triggers a response, often terminating the program, to prevent potential exploitation. By validating the target of each control flow transfer, such as [indirect function calls](https://softwareengineering.stackexchange.com/questions/401110/difference-between-direct-and-indirect-function-calls) and returns, CFI helps in maintaining the integrity of the software’s execution trajectory, thus bolstering its resistance against attacks that attempt to hijack the program’s control flow.
 
-For more specific information: https://clang.llvm.org/docs/ControlFlowIntegrity.html
+For more specific information: [https://clang.llvm.org/docs/ControlFlowIntegrity.html](https://clang.llvm.org/docs/ControlFlowIntegrity.html)
 
 ## Forward Edge Protection
 
