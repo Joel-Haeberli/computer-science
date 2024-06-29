@@ -37,13 +37,13 @@ links: [[908 ED TOC - C Arrays|ED TOC - C Arrays]] - [[themes/000 Index|Index]]
 **Exploitation Basics**
 
 - Common vulnerability: Buffer overflow due to functions like `strcpy()` not considering the destination buffer size.
-- `strncpy(destination, source, len)` does care about the length
 - Example:
   ```c
   char destination[8];
   char source[16] = "1234567890123456\x00";
   strcpy(destination, source);
   ```
+- `strncpy(destination, source, len)` does care about the length!
 
 **Non-Arrays in C**
 
@@ -59,11 +59,17 @@ links: [[908 ED TOC - C Arrays|ED TOC - C Arrays]] - [[themes/000 Index|Index]]
   }
   ```
 
+**Remember**
+
+- basic types are stored in memory and can be loaded into registers
+- derived types are stored in memory and contain basic types
+- basic types are modified in registers!
+
 **Conclusion**
 
 - C does not enforce buffer boundaries, making it susceptible to buffer overflow attacks.
 - `strcpy()` and similar functions do not check the size of the destination buffer, leading to potential overwrites of adjacent memory.
--  One buffer can overflow into another buffer
+- One buffer can overflow into another buffer
 - Local variables/buffers are adjoin to each other
 - Pointer can point to any memory address
 

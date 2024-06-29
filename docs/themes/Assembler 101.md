@@ -128,15 +128,15 @@ cmp dword ptr [ebp-0xc], 0xb  ; Compare the loop counter with 11
 jle short loop_start          ; Jump to 'loop_start' if counter is less than or equal to 11
 ```
 
-**Online Assemblers**
+## Online Assemblers
 
 - **Compile Assembly Online**:
-  - [JDoodle NASM](https://www.jdoodle.com/compile-assembler-nasm-online)
-  - [TutorialsPoint NASM](https://www.tutorialspoint.com/compile_assembly_online.php)
+	- [JDoodle NASM](https://www.jdoodle.com/compile-assembler-nasm-online)
+	- [TutorialsPoint NASM](https://www.tutorialspoint.com/compile_assembly_online.php)
 
 - **Decompile C Source Code**:
-  - [Godbolt](https://godbolt.org/)
-  - [RetDec](https://retdec.com/decompilation-run/)
+	- [Godbolt](https://godbolt.org/)
+	- [RetDec](https://retdec.com/decompilation-run/)
 
 ---
 links: [[904 ED TOC - Assembler|ED TOC - Assembler]] - [[themes/000 Index|Index]]

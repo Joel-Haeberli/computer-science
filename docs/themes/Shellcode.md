@@ -39,7 +39,7 @@ Shellcode is:
 ![[shellcode-example.png]]
 ## Terms
 
-- [[Syscalls]]
+- see [[Syscalls]] first
 - **Compile/Assembler**: process of converting source code into a series of instructions/bytes (Assembler $\rightarrow$ Bytes)
 - **Disassemble**: process of converting a series of instructions/bytes into the equivalent assembler source code (Bytes $\rightarrow$ Assembler)
 - **Decompile**: process of converting instructions/assembler into the original source code (Assembler $\rightarrow$ C/C++)
@@ -52,16 +52,16 @@ Shellcode is:
 
 ## Fix Null Bytes Problem
 
-- The Null byte (`0x00`) is a string delimiter $\rightarrow$ Strcpy() etc. will stop copying
-- **Fix**: replace instructions with contain 0 bytes with equivalent instructions which do not have these (more an art than a technique)
+- The Null byte (`0x00`) is a string delimiter $\rightarrow$ `strcpy()` etc. will stop copying
+- **Fix**: replace instructions with contain `0x00` bytes with equivalent instructions which do not have these (more an art than a technique)
 
 ```assembly
 ; has 0 bytes
-mov 0x04, eax
+mov 0x04, eax            ; bb 01 00 00 00
 
 ; equivalent instruction without 0 bytes
-xor eax, eax
-mov 0x04, al
+xor eax, eax             ; 31 c0
+mov 0x04, al             ; b0 04
 ```
 
 ![[null-byte.png]]

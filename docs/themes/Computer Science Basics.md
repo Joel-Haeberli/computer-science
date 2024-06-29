@@ -23,7 +23,7 @@ The von Neumann architecture remains popular today due to its simplicity, flexib
 
 ## CPU Registers
 
-Registers are fast, small storage locations within the CPU used for immediate data access. They can store data, memory addresses, and control information, and are crucial for performing computations, reading/writing memory, and executing instructions. It's not possible to write from memory to the memory directly. Always done over a register. Common registers include:
+Registers are fast, small storage locations within the CPU used for immediate data access. They can store data, memory addresses, and control information, and are crucial for performing computations, reading/writing memory, and executing instructions. **It's not possible to write from memory to the memory directly**. Always done over a register. Common registers include:
 
 | 32-bit | 64-bit | Acronym             | Function                               |
 | ------ | ------ | ------------------- | -------------------------------------- |
@@ -78,8 +78,8 @@ while true:
 			sub( instr[ip+1], instr[ip+2] )
 ```
 
-* Assemble/compile --> Transform Assembler Instructions to CPU Opcodes
-* Disassemble --> Get Assembler Instructions from CPU Opcodes
+* Assemble/compile $\rightarrow$ Transform Assembler Instructions to CPU Opcodes
+* Disassemble $\rightarrow$ Get Assembler Instructions from CPU Opcodes
 
 ## Numbers
 
@@ -113,11 +113,11 @@ Operating systems manage hardware resources and provide an interface for user ap
 - **Processes (interpreted, alive)**: Independent programs (static, dead) running in memory, each thinking it owns the entire system. Processes can be created, scheduled, and managed by the OS.
 - **Memory Management**: Processes have virtual memory spaces managed by the OS, typically 4GB in a 32-bit system. The mapping between physical pages and virtual memory is done via MMU (Memory management unit) / TLB (Translation lookaside buffer). This mapping is called **paging**.
 
-**Why 4GB**
+**Why 4GB** memory
 
 * 32 bit register size in (old) Intel CPU
 * Register are used to address memory
-* 2^32 = 4 billion = 4 gigabyte
+* $2^{32}$ = 4 billion = 4 gigabyte
 
 **How can multiple programs run at the same time?**
 
@@ -134,11 +134,39 @@ By using Interrupts:
 
 The transition from 32-bit to 64-bit architecture introduced several changes:
 
-- **64-bit systems**: Can address more than 4GB of memory, theoretically up to 18 exabytes.
+- **64-bit systems**: Can address more than 4GB of memory, theoretically up to 18 exabytes ($2^{64}$).
 	- Only 47 bit are used (=140 terabytes)
 	- 57 bit is coming
 - **Registers**: Expanded from 32-bit to 64-bit, allowing for more data to be processed per instruction.
 - **Compatibility**: 64-bit operating systems can run 32-bit applications, requiring a 32-bit runtime environment. However, 64-bit applications can take advantage of larger address spaces and improved performance.
+
+## Data measurements
+
+### Binary system
+
+| Name           | Factor   | Value in Bytes                    |
+| -------------- | -------- | --------------------------------- |
+| kibibyte (KiB) | $2^{10}$ | 1'024                             |
+| mebibyte (MiB) | $2^{20}$ | 1'048'567                         |
+| gibibyte (GiB) | $2^{30}$ | 1'073'741'824                     |
+| tebibyte (TiB) | $2^{40}$ | 1'099'511'627'776                 |
+| pebibyte (PiB) | $2^{50}$ | 1'125'899'906'842'624             |
+| exbibyte (EiB) | $2^{60}$ | 1'152'921'504'606'846'976         |
+| zebibyte (ZiB) | $2^{70}$ | 1'180'591'620'717'411'303'424     |
+| yobibyte (YiB) | $2^{80}$ | 1'208'925'819'614'629'174'706'176 |
+
+### Binary system
+
+| Name           | Factor    | Value in Bytes                    |
+| -------------- | --------- | --------------------------------- |
+| kilobyte (KB)  | $10^{3}$  | 1'000                             |
+| megabyte (MB)  | $10^{6}$  | 1'000'000                         |
+| gigabyte (GB)  | $10^{9}$  | 1'000'000'000                     |
+| terabyte (TB)  | $10^{12}$ | 1'000'000'000'000                 |
+| petabyte (PB)  | $10^{15}$ | 1'000'000'000'000'000             |
+| exabyte (EB)   | $10^{18}$ | 1'000'000'000'000'000'000         |
+| zetabyte (ZB)  | $10^{21}$ | 1'000'000'000'000'000'000'000     |
+| yottabyte (YB) | $10^{24}$ | 1'000'000'000'000'000'000'000'000 |
 
 ---
 links: [[902 ED TOC - Intel Architecture|ED TOC - Intel Architecture]] - [[themes/000 Index|Index]]

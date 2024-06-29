@@ -1,4 +1,4 @@
-tags: #memory
+tags: #memory #elf 
 
 # Memory Layout
 
@@ -11,16 +11,16 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 **Memory Layout**
 
 - **x32 Memory Layout**: The memory layout in 32-bit architecture includes the stack, heap, and code sections. The stack grows downwards from the top of the memory space, while the heap grows upwards. The code section is typically located at the lower addresses.
-	- **Stack**: A contiguous memory region used for function local variables and control data like the saved instruction pointer (SIP).
+	- **Stack**: A *contiguous* memory region used for function local variables and control data like the saved instruction pointer (SIP).
 		- LIFO - Last in, First out
-	- **Heap**: A contiguous region managed by the memory allocator (e.g., malloc()) and used for dynamic memory allocation.
+	- **Heap**: A *contiguous* region managed by the memory allocator (e.g., `malloc()`) and used for dynamic memory allocation.
 	- **Code**: Contains the compiled program code.
 
 ![[memory_overview.png]]
 
 **ELF Format**
 
-- ELF files store program data and instructions in a standardized format. They replace the older "a.out" format and are similar to other executable formats like COFF and PE.
+- ELF files store program data and instructions in a standardized format. They replace the older `a.out` format and are similar to other executable formats like COFF (UNIX, old) and PE (Windows).
 	- **Types**: ET_EXEC (executable), ET_REL (relocatable), ET_DYN (shared object).
 	- **Views**:
 		- **Sections**: Logical divisions used by the compiler, like `.text` for executable instructions, `.data` for initialized data, and `.bss` for uninitialized data.
@@ -40,6 +40,10 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 
 ![[elf_mapping.png]]
 
+- **Code**: `r-x` executable segment $\rightarrow$ compiled code
+- **Heap**: `rw-` data segment $\rightarrow$ heap variables (e.g. global variables)
+- **Stack**: `rw-` stack $\rightarrow$ stack variables
+
 **Memory Example in C**
 
   - Global variables are located in the data segment.
@@ -48,7 +52,7 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 
 **ELF File Analysis**
 
-- **readelf** and **objdump** tools are used for examining ELF files, displaying segment and section information and disassembling code sections.
+- `readelf` and `objdump` tools are used for examining ELF files, displaying segment and section information and disassembling code sections.
 
 **Summary**
 
@@ -62,6 +66,8 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 	- Code segment (the actual compiled code)
 	- Heap (global allocations with `malloc()`)
 	- Stack (local variables of functions)
+
+![[memory-segmentation-cheat-sheet.png]]
 
 ---
 links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Index|Index]]
