@@ -22,6 +22,11 @@ Assuming the Username is 129 characters of A, after `strcpy(name, username)` the
 
 Even though the password might have been wrong which lead to `isAdmin` being 0 after calling `checkPassword`, the overflow changed the value of `isAdmin` to 0x41 which means the user will see the `You are admin!` prompt
 
+**Remember**
+
+- Local variables of a function (buffers) are assigned adjacently to each other.
+- One after another, as written in the source code (first initialized first allocated)
+
 ## Program execution flow manipulation
 
 Buffer overflows can also be used to manipulate the program execution flow. This is done by changing the return address. The return address can be changed to the address of a specific function the the attacker wants to execute ([challenge10](https://exploit.courses/#/challenge/10)). It's also possible that the attacker provides shell code as a username and then sets the return address to the `name` variable which will execute the shell code ([challenge11](https://exploit.courses/#/challenge/11))
@@ -30,7 +35,7 @@ To change the return address and therefore the program flow the following steps 
 
 1. **Find the offset between the address of the name buffer and the return address**
 
-One way to find the offset is brute force. Try different lengths of usernames and set a breakpoint at the `ret` call in handleData (`disas handleData`, `break *handleData+115`). Then print `esp` to see where it is currently pointing to (x/1x $esp). If this address is overwritten with the username the username is too long and if it's not overwritten at all it's too short.
+One way to find the offset is brute force. Try different lengths of usernames and set a breakpoint at the `ret` call in handleData (`disas handleData`, `break *handleData+115`). Then print `esp` to see where it is currently pointing to (`x/1x $esp`). If this address is overwritten with the username the username is too long and if it's not overwritten at all it's too short.
 
 It's also possible to calculate the offset by subtracting the address of `name`from the address of the `esp` while it is pointing at the return address (breakpoint at `ret`).
 
@@ -51,6 +56,14 @@ The program will print that the user is Admin and normally the program would jum
 ![[overflow-stack-1.png]]
 
 Here the `leave` call was just executed ([[Function Calls]]). The overwritten `ebp` was popped which means the `ebp`register now contains the address `0x41/0x41/0x41/0x41` and the `esp` now points to the overwritten return address. The next call after `leave`is `ret`which will execute the code at the overwritten address.
+
+**Recap**
+
+What is required to create an exploit?
+
+- The Shellcode
+- The distance to SIP
+- The addres of shellcode (in memory of the process)
 
 ---
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
