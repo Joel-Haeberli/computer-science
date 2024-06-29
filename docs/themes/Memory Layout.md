@@ -1,4 +1,4 @@
-tags: #memory #elf 
+tags: #memory #elf #heap
 
 # Memory Layout
 
@@ -68,6 +68,18 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 	- Stack (local variables of functions)
 
 ![[memory-segmentation-cheat-sheet.png]]
+
+## Heap
+
+**Heap allocator**
+
+- Allocate big memory pages from the OS
+- manage this pages (normally 4k)
+	- split the **pages** into smaller **bin's**
+	- each **bin** contain **chunks** of a specific size
+	- make these **chunks** available to the program
+
+![[heap-layout.png]]
 
 ---
 links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Index|Index]]

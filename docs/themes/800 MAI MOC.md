@@ -1,4 +1,4 @@
-tags: 
+tags: #malware-analysis
 
 # Malware analysis and intelligence MOC
 
