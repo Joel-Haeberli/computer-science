@@ -20,6 +20,13 @@ Points to the next instruction to be executed
 
 Points to the bottom of the stack
 
+## What is a function?
+
+- Self contained subroutine
+- Re-usable
+- Can be called from anywhere
+- After function is finished: Jump to the calling function (callee)
+
 ## Function call step by step
 
 ![[function-call.png]]
@@ -43,6 +50,64 @@ Points to the bottom of the stack
 	- `ret` instruction
 		- `pop eip`: Restore the save instruction pointer of the calling function `main`
 		- `eip` now points to `return` in the main function again
+
+## Function prologue and epilogue
+
+- Every function has its own little **stack frame**
+- stack frame is where local variables, function arguments etc. are
+- A function should only access its own stack frame
+- most of the function **prologue and epilogue** handle setting up and removing the stack frame
+
+We use following example code in C:
+
+```c
+int add(int x, int y) {
+	int sum;
+	sum = x + y;
+	return sum;
+}
+
+void main(void) {
+	int c;
+	c = add(3, 4);
+}
+```
+
+`add()` function in assmembly:
+
+```assembly
+; call <addr>
+push eip          ; save instruction pointer (SIP) to stack
+jmp 0x11223344    ; jump to add() function address
+
+; prologue
+push ebp          ; save base pointer (SBP) to stack for callee
+mov ebp, esp      ; base pointer is now set to stack pointer ("new" stack)
+
+; function
+
+; epilogue
+move esp, ebp     ; leave, stack pointer now base pointer again
+pop ebp           ; leave, restore old stack base pointer
+pop eip           ; ret, restore instruction pointer (callee)
+```
+
+**Recap**
+
+- when a function is called: `EIP` is pushed on the stack (`SIP`) via `call`
+- at the end of the function: `SIP` is recovered into `EIP` (`pop eip`)
+
+## Function Calls in x64
+
+- Arguments are in registers (not on stack): `RDI`, `RSI`, `R8`, `R9`
+- Different ASM commands doing the same thing: `callq` (`call`), `leaveq` (`leave`), `retq` (`ret`)
+
+**Function Call Convention**
+
+![[function-call-convention.png]]
+**EBP Cheat Sheet**
+
+![[ebp-cheat-sheet.png]]
 
 ---
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]

@@ -25,6 +25,7 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 **What is an Exploit?**
 
 - An exploit is a method or tool that takes advantage of a vulnerability in software to make the program behave in unintended ways. Exploits can be categorized as local, remote, or client-side depending on where and how they are executed.
+- **Not an exploit**: Virus, Backdoor, Trojan, Malware (they do not introduce new code into running software)
 
 **Types of Vulnerabilities**
 
@@ -44,8 +45,8 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 **Local, Remote, and Client-Side Exploits**
 
 - **Local Exploit**: The attacker already has access to the system and seeks higher privileges (e.g., user to root).
-- **Remote Exploit**: The attacker interacts with server software over a network to execute code on the server.
-- **Client-Side Exploit**: The attacker manipulates data that a client application processes to execute code on the client machine.
+- **Remote Exploit**: The attacker interacts with server software over a network to execute code on the server (DNS, Apache, FTP).
+- **Client-Side Exploit**: The attacker manipulates data that a client application processes to execute code on the client machine (Browser, Word, ...).
 
 **Vulnerable Software**
 

@@ -12,13 +12,14 @@ links: [[905 ED TOC - Shellcode|ED TOC - Shellcode]] - [[themes/000 Index|Index]
 
 - Ask the kernel to do something for us
 - The fundamental interface between an application and the Linux kernel
-- Generally not invoked directly, but rather via wrapper function in glibc
+- Syscalls are generally not invoked directly, but rather via wrapper function in glibc (e.g. `write()`)
 
 ## Using Syscalls in Shellcode
 
-- Direct interface to the kernel
+- in Shellcode, we use Syscalls directly!
+- direct interface to the kernel
 - makes it easy to create shellcode
-- Alternative would be to call LIBC code (e.g. `write()`) but we don't know where `write()` is located
+- alternative would be to call LIBC code (e.g. `write()`) but we don't know where `write()` is located
 
 ## Syscall in ASM
 
