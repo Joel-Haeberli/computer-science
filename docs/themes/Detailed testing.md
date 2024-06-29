@@ -81,7 +81,7 @@ links: [[507 WS TOC - Testing|WS TOC - Testing]] - [[themes/000 Index|Index]]
 
 - Examples
 	- Setting the quantity of a product as a negative number may result in funds being credited to the attacker
-	- Access directly to the validation of an order without having payed for it
+	- Access directly to the validation of an order without having paid for it
 	- Being able to enter data with another identity
 
 ### AJAX / JSON

@@ -36,7 +36,7 @@ Example: Partial files $\rightarrow$ A file is to big to be downloaded in one st
 
 ## Hash Tree
 
-A Hash Tree is the generalized concept of Hash Pointer and Hash List. Hash Trees have the property that **each node holds the hash of the concatenation of its children**. Only leafs are holding actual data.
+A Hash Tree is the generalized concept of Hash Pointer and Hash List. Hash Trees have the property that **each node holds the hash of the concatenation of its children**. Only leaves are holding actual data.
 
 - **Ordered**: The order of children is defined and known (1, 2, 3)
 - **Rooted**: The root node is known
@@ -62,7 +62,8 @@ A Hash Linked List is a Binary Hash Tree where the right side of each node is a 
 
 ## Merkle Tree
 
-A Merkle Tree is a Hash Tree with the limitation that **each leaf has no siblings**. The root of a Merkle tree is called Merkle Root. Verification of leafs (which hold the data) is done by applying a Merkle Proof.
+A Merkle Tree is a Hash Tree with the limitation that **each leaf has no siblings**. The root of a Merkle tree is called Merkle Root. Verification of leaves
+ (which hold the data) is done by applying a Merkle Proof.
 
 ### Merkle Proof
 

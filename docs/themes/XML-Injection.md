@@ -14,7 +14,7 @@ The system somehow uses XML. This can be an XML database, an API accepting XML a
 
 The Risk of XML-Injection lies in API's not able to parse XML because they are not valid anymore.
 
-## Technics to use vulnerabilities
+## Techniques to use vulnerabilities
 
 XML-Injection are caused by abusing metacharacters of XML. These include:
 

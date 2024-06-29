@@ -80,9 +80,9 @@ Each session begins with a handshake based on the Noise framework. This handshak
 
 ![[vpn-wireguard-noise-key-exchange.png]]
 
-Defnitions (Below in the Basic idea section you will find the missing keys and where they come from):
+Definitions (Below in the Basic idea section you will find the missing keys and where they come from):
 
-![[vpn-wireguard-noise-key-exchange-definitons.png]]
+![[vpn-wireguard-noise-key-exchange-definitions.png]]
 
 ### Basic Idea
 
@@ -109,7 +109,7 @@ The initiator sends to the responder:
 - AEAD encrypted data with a key derived from $g^{e_i s_r}$
 	- This transport encryption is done using ChaCha20 as symmetric encryption authenticated by Poly1305
 	- AEAD.Enc($tk_i$ , counter$_i$ , encapsulated packet)
-- A increasing counter autheticated-encrypted using a key derived from $g^{s_i s_r}$
+- A increasing counter authenticated-encrypted using a key derived from $g^{s_i s_r}$
 
 **Responder**
 
@@ -138,7 +138,7 @@ The symmetric session keys are constantly rotated:
 WireGuard integrates into the network namespace infrastructure so Namespacing tricks can be used:
 
 - Assign only the WireGuard interface to a container
-- Let DHCP touch only phisical interfaces
+- Let DHCP touch only physical interfaces
 - Let your web browser see WireGuard interfaces
 - Nice alternative to routing table hacks
 

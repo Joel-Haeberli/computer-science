@@ -38,7 +38,7 @@ links: [[507 WS TOC - Testing|WS TOC - Testing]] - [[themes/000 Index|Index]]
 	- Web spider can be used to map out the sites structure $\rightarrow$ wget, OWASP ZAP
 	- Or surf by yourself
 - List entry points
-	- URL, parameters, GET parameters, POST form paramters, Cookies
+	- URL, parameters, GET parameters, POST form parameters, Cookies
 	- AJAX, JSON, REST
 	- DB listeners (should normally be closed)
 

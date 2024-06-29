@@ -33,7 +33,7 @@ The assumption that block ciphers (e.g. AES) are [[CPA-Security#Pseudorandom Fun
 
 ## Chained CBC mode
 
-- last block of the previous ciphertext is used as the IV $\rightarrow$ reduces bandwith
+- last block of the previous ciphertext is used as the IV $\rightarrow$ reduces bandwidth
 - [[Stream Cipher#Synchronized mode|synchronized mode]] (stateful)
 - not [[CPA-Security|CPA]] secure $\rightarrow$ see see [[CBC Attack]]!
 
@@ -76,7 +76,7 @@ A **nonce** refers to a value that is supposed to be **used once, and never repe
 
 **Difference between IV**
 
-- instead of using an IV, wich is chosen uniformly, use a nonce
+- instead of using an IV, which is chosen uniformly, use a nonce
 - **repeat cannot occur** (assumption that the application using the encryption scheme ensures that nonces never repeat)
 - nonce-based encryption scheme can be CPA-secure even though it is deterministic
 

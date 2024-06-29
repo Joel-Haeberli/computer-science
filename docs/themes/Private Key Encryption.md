@@ -26,7 +26,7 @@ m = Dec(k,c):
 
 - Encrypting and decrypting messages in a safe way
 - [[CPA-Security|CPA-Secure]]: Secure against **C**hosen **P**laintext **A**ttacks
-- [[EAV-Security|EAV-Secure]]: EAV means "Secure Against Evesdropping" (which is included in Chosen Plaintext Attacks)
+- [[EAV-Security|EAV-Secure]]: EAV means "Secure Against Eavesdropping" (which is included in Chosen Plaintext Attacks)
 - PPT algorithms (**P**robabilistic **P**olynomial **T**ime algorithms)
 - Indistinguishability
 
@@ -65,7 +65,8 @@ The encryption primitive initializes a [[Pseudorandom Number Generator (PRNG)|PR
 
 #### Dec(k, c) = m
 
-The decryption primitve initializes a [[Pseudorandom Number Generator (PRNG)|PRNG]] using the generated key `k` as seed. Then it consumes a `len(c)` bit-string of the PRNG to XOR the string with the ciphertext `c`, which results in plaintext `m`
+The decryption primitive
+ initializes a [[Pseudorandom Number Generator (PRNG)|PRNG]] using the generated key `k` as seed. Then it consumes a `len(c)` bit-string of the PRNG to XOR the string with the ciphertext `c`, which results in plaintext `m`
 
 ---
 links: [[104 AC1 TOC - Private Key Encryption|AC1 TOC - Private Key Encryption]] - [[themes/000 Index|Index]]

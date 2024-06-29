@@ -121,10 +121,10 @@ There are many Network Monitoring, Host-Monitoring and Graphing Tools out there.
 	- Lightweight can be used on UNIX/LINUX
 - Netdata
 	- Real-time performance and health monitoring of system/hosts
-	- Fast and efficienct designed to run on all systems (physical & virtual servers, containers, IoT devices)
+	- Fast and efficient designed to run on all systems (physical & virtual servers, containers, IoT devices)
 - Grafana
 	- Multi-platform open-source analytics and interactive visualization web app
-	- Provides charts, graphs and alerts from verious supported data sources
+	- Provides charts, graphs and alerts from various supported data sources
 	- Plug-in system
 	- User can create dashboards
 

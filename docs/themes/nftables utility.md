@@ -129,7 +129,7 @@ nft add rule myfilter myinput tcp dport >= 1024
 
 - Possible actions on packets:
 	- **accepting and dropping** packets
-	- **rejecting** trafic
+	- **rejecting** traffic
 	- **jumping to chain**
 	- **counters**
 	- **logging** traffic

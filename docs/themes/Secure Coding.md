@@ -11,7 +11,8 @@ links: [[915 ED TOC - Further Topics|Further Topics]] - [[themes/000 Index|Index
 - (Buffer Overflows)
 - String handling mischief
 - Integer overflows / underflows
-- Information disclosure (unitialized memory, buffer overread)
+- Information disclosure (uninitialized
+-  memory, buffer overread)
 
 ## Insecure Functions
 

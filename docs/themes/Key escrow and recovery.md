@@ -18,7 +18,7 @@ The upload and restore process, along with related images, can be found on the A
 ### Upload Process
 
 1. Split recovery information
-2. Identify the user by his attributes. [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] is used to derive an identifier from the user's attributes $\rightarrow$ unique id wich didn't change over time
+2. Identify the user by his attributes. [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]] is used to derive an identifier from the user's attributes $\rightarrow$ unique id which didn't change over time
 3. Use the [[Key Derivation Function (KDF)#KDF using HMAC (HKDF)|HMAC Key Derivation Function (HKDF)]] to derive key material from the user ID. This results in 2 keys, $K1$ and $K2$.
 4. Split the information in multiple parts
 5. Encrypt the recovery information splits with $K1$

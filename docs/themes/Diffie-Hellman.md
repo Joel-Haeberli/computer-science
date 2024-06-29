@@ -61,7 +61,7 @@ The CDH assumption is stronger than the DL assumption.
 There are 3 application modes for DH:
 
 - Ephemeral-ephemeral mode
-	- Both Alice and Bob generate new values for each communication so every time they communicate a new session key $k$ is genereted
+	- Both Alice and Bob generate new values for each communication so every time they communicate a new session key $k$ is generated
 - Ephemeral-static mode
 	- Only one of the two generates new values for each communication.
 	- There will bi also a new session key $k$ for every communication

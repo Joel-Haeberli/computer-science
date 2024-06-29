@@ -17,7 +17,7 @@ in compare with [[Block Cipher#Cipher Block Chaining (CBC) mode|CBC mode of oper
 - no IV
 - only output of last tag (no intermediate output)
 
-> is only secure for "fixed-length" messages (see [[themes/Hash-and-Mac#Length-Extension Attack|Lenght-Extension Attack]])
+> is only secure for "fixed-length" messages (see [[themes/Hash-and-Mac#Length-Extension Attack|Length-Extension Attack]])
 
 ![[cbc_mac.png]]
 
@@ -34,7 +34,7 @@ in compare with [[Block Cipher#Cipher Block Chaining (CBC) mode|CBC mode of oper
 ### GMAC (Galois Message Authentication Code)
 
 - GMAC is an specialization of the [[Authenticated Encryption#GCM (Galois/ counter mode)|GCM (Galois/Counter mode)]] for authentication only
-- uses GHASH, wich is a [[Hash Functions#Universal Hash Function|universal hash family]]
+- uses GHASH, which is a [[Hash Functions#Universal Hash Function|universal hash family]]
 - very efficient by using hardware-level instructions (more efficient and secure than CBC-MAC)
 
 ### Poly1305

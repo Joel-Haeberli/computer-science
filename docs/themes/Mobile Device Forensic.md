@@ -33,7 +33,7 @@ A SIM card is essentially a standard smartcard that adheres to the ISO 7816-3 in
 
 Data storage on SIM cards is limited, with capacity typically measured in kilobytes. Stored data often includes a simple phone book (names and numbers), SMS text messages, and the last number dialed.
 
-## Smartphone Challanges
+## Smartphone Challenges
 
 Smartphone forensics presents distinct challenges compared to computer forensics. Key issues include:
 

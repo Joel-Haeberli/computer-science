@@ -62,7 +62,7 @@ IPsec was developed with IPv6 in mind and was originally required to be supporte
 
 - Certificate based authentication with X509 certificates
 - Pre-Shared Keying (PSK)
-- Extensible Authentication Protocol Mehtods (ESP, RFC3748) operations (Legacy Authentication mechanisms)
+- Extensible Authentication Protocol Methods (ESP, RFC3748) operations (Legacy Authentication mechanisms)
 
 ![[vpn-IKEv2.png]]
 
@@ -100,7 +100,7 @@ IPsec was developed with IPv6 in mind and was originally required to be supporte
 
 ## MTU
 
-MSS (Maximum Segment Size) and MTU (Maximum Transmission Unit) are mesurements of packet size. MTU = largest data packet a network device will accept. MSS = maximum payload without header.
+MSS (Maximum Segment Size) and MTU (Maximum Transmission Unit) are measurements of packet size. MTU = largest data packet a network device will accept. MSS = maximum payload without header.
 
 - Packets that exceeds a networks MTU may be fragmented
 - Packets that exceed the MSS are dropped

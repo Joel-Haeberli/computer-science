@@ -12,7 +12,7 @@ Police (fedpol), NCSC, Military, Companies (SOC/CISO), Security companies (Trend
 **What is the difference between forensic acquisition and forensic analysis?**
 
 Mostly separate teams
-- Aquisition: collection/getting as much data as possible (storage: usb sticks, IoT devices, .../Staubsuger/...), creation of image (specific format, dd, compressed, ...)
+- Acquisition: collection/getting as much data as possible (storage: usb sticks, IoT devices, .../Staubsuger/...), creation of image (specific format, dd, compressed, ...)
 - Analysis: data analysis in specific format (...) or raw (dd image), pre-processing data (index, database for search), understand the data (where it started), decompress (e.g. mail with zip attachment containing a word file contains images), correlate logs/cameras/filesystem timestamps/other data
 
 **What are some advantages and disadvantages of using open source forensic tools?**
@@ -100,7 +100,7 @@ Analyze blocks, icat, mmls, ...
 
 **What are hash databases (or hash sets) good for?**
 
-- Ignore known files which are not interessting (common software files)
+- Ignore known files which are not interesting (common software files)
 - Left are modified files, created/new files
 
 **What kind of operating system artifacts are interesting in forensics?**

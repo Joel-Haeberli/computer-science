@@ -15,7 +15,7 @@ links: [[613 SPA TOC - Secure Email|SPA TOC - Secure Email]] - [[themes/000 Inde
 
 ### Header fields
 
-- all header fields have the structure `fied: field-body`  (e.g. `To: Jan`)
+- all header fields have the structure `field: field-body`  (e.g. `To: Jan`)
 - **Required header fields**: origination date field and the originator from (address) fields
 
 ![[field-definitions.png]]

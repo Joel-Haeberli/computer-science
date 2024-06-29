@@ -49,7 +49,7 @@ $$ord(G) = |G| $$
 		- $\mathbb{Z}^*_p$ where p is a prime is used in e.g [[Diffie-Hellman]]
 		- $\mathbb{Z}^*_n$ where $n=pq$ is used in e.g [[RSA]]
 	- $\mathbb{Z}^*_2$ = {$1$}
-	- $\mathbb{Z}^*_{11}$ = {$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$} $\rightarrow$ candiate for DH ($p=11$)
+	- $\mathbb{Z}^*_{11}$ = {$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$} $\rightarrow$ candidate for DH ($p=11$)
 	- $\mathbb{Z}^*_{15}$ = {$1, 2, 4, 7, 8, 11, 13, 14$} $\rightarrow$ candidate for RSA ($15 = 3 * 5$)
 
 ![[Group Theory multiplication table.png]]

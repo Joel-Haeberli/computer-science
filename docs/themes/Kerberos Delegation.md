@@ -11,8 +11,8 @@ links: [[620 SPA TOC - Kerberos|SPA TOC - Kerberos]] - [[themes/000 Index|Index]
 - Delegation is a standard built-in mechanism of kerberos
 - Allows a service to act on behalf of a user when talking to other services $\rightarrow$ "user impersonation"
 - Delegation is transparent
-	- Users can't control wether delegation will occur or not
-	- Users can't detect wether delegation happened or not
+	- Users can't control whether delegation will occur or not
+	- Users can't detect whether delegation happened or not
 	- Delegation happens at the discretion of the service
 
 ![[kerberos-10.png]]

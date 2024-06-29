@@ -38,7 +38,7 @@ A secure MAC is said to be *existentially unforgeable under an adaptive chosen-m
 
 ### Replay attacks
 
-The above definition offer **no protection against replay attacks** in which an attacker simply re-sends a previously authenticated message along with its valid tag. A example would be a authenticated transfer of $1000 from Alice to Bob wich can be repeated.
+The above definition offer **no protection against replay attacks** in which an attacker simply re-sends a previously authenticated message along with its valid tag. A example would be a authenticated transfer of $1000 from Alice to Bob which can be repeated.
 A MAC by itself cannot protect against such attacks since **verification is stateless**.
 To prevent replay attacks, we can use **sequence numbers** or **time-stamps**.
 

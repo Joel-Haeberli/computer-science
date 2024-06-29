@@ -42,7 +42,7 @@ The concept behind a CPU Jitter RNG is that the precise timing of CPU instructio
 
 Sources on Jitter entropy:
 
-- [Clearification and justification of jittering as entropy source](http://www.chronox.de/jent.html)
+- [Clarification and justification of jittering as entropy source](http://www.chronox.de/jent.html)
 - [Example implementation](https://github.com/smuellerDD/jitterentropy-library)
 
 ---

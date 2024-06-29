@@ -259,7 +259,7 @@ links: [[600 SPA MOC|SPA MOC]] - [[themes/000 Index|Index]]
 	- `AUDIT`: creates audit records for packets hitting the target. It can be used to record accepted, dropped, and rejected packets.
 	- `CT`: The CT target sets parameters for a packet or its associated connection. Used for stateful filtering.
 	- `SNAT`: Alters the source address of packets, used for Source NAT.
-10. **What ist the purpose of the match extension "state"/"conntrack" of iptables?**
+10. **What is the purpose of the match extension "state"/"conntrack" of iptables?**
 	- filter packets based on their connection tracking status:
 11. **What states of connections can be checked by iptables using the match extension "conntrack"?**
 	- `NEW`: the packet has started a new connection
@@ -409,15 +409,15 @@ links: [[600 SPA MOC|SPA MOC]] - [[themes/000 Index|Index]]
      - For Squid, criteria can include URL patterns, IP addresses, or protocols. For example, you might configure Squid to block all access to certain websites or to only allow browsing during specific hours.
 6. **Which means do you know to explore networks?**
      - Network exploration can be done using tools like Nmap for port scanning, Wireshark for packet analysis, traceroute for path tracking, and network mapping tools that visualize network topology.
-7. **Which vulnerability scanner was used in the lab excercises?**
+7. **Which vulnerability scanner was used in the lab exercises?**
      - In the lab, Greenbone OpenVAS was used. It's a comprehensive vulnerability scanning tool that helps in identifying vulnerabilities in network services and software.
 8. **What data of your router can you analyze using "nfsen"?**
      - "nfsen" allows you to analyze network flow data from your router. It can display traffic patterns, bandwidth usage, and type of traffic (e.g., HTTP, FTP) over time, aiding in network monitoring and troubleshooting.
-9. **What ist "softflowd" and how can it be used to export flow data?**
+9. **What is "softflowd" and how can it be used to export flow data?**
     - "softflowd" is a flow-based network traffic analyzer. It can be used to export flow data from network interfaces, tracking various aspects of traffic like source/destination IP, ports, and protocols.
 10. **Explain how "softflowd" and "nfcap/nfsen" interact.**
 	  - "softflowd" captures flow data from network traffic and exports it in a format compatible with "nfcapd", a collector component of "nfsen". "nfsen" then uses this data for analysis, visualization, and reporting.
-11. **Which security distibutions where used in the lab? Explain their main focus.**
+11. **Which security distributions where used in the lab? Explain their main focus.**
 	  - Kali Linux was used, which is a distribution designed for digital forensics and penetration testing. It comes with numerous tools for network analysis, vulnerability scanning, and security auditing. Its main focus is to provide a comprehensive suite for cybersecurity professionals to test network defenses and security measures.
 
 ## Part 2

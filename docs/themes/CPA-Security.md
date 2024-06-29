@@ -14,7 +14,7 @@ The attacker can e.g. influence and observe what messages get encrypted (the adv
 
 A simple example is given by an attacker typing on a terminal, which in turn encrypts everything the adversary types using a key (unknown to the attacker) shared with a remote server. Here the attacker exactly controls what gets encrypted, and the encryption scheme should still reveal nothing when it is used—with the same key—to encrypt data typed by another user.
 
-**Take aways**
+**Take away**
 
 - CPA-security is nowadays the minimal notion of security an encryption scheme should satisfy
 - Any private-key encryption scheme that is CPA-secure is also CPA-secure for **multiple** encryptions
