@@ -18,7 +18,7 @@ Source: [de: YouTube](https://www.youtube.com/watch?v=45D7n8tvMho)
 - Blockchain is an accounting system (ledger), not a currency
 - **Proof of Work**: as an invitation to tender, get bitcoins for work
 	- all 4 years, the profit is halved
-- *inflation*: there is an absolut limit of bitcoins, the hard cap, wich is 21 Million Coins (90% has already been scooped)
+- *inflation*: there is an absolute limit of bitcoins, the hard cap, which is 21 Million Coins (90% has already been scooped)
 - *deflation*: no one can help, money supply shrinks (lost wallets, typos)
 - a new block per 10 Min
 - bitcoin's protection against corruption is the price of electricity

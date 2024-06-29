@@ -181,7 +181,7 @@ Let's consider an example involving an individual user in a corporate environmen
 
 - Crucial non-technical process in a PKI world
 - Dependent on the purpose and field of application of a certificate this process may be anything between automatically (simple) and time consuming (complex)
-- In an enterprise environement with a private PKI this is mostly done automatically by an Identity Managemtn System (IdMS)
+- In an enterprise environment with a private PKI this is mostly done automatically by an Identity Managemtn System (IdMS)
 - For public PKI's the range is very broad:
 	- Simple e-mail registration
 	- Identification by sending a copy of ID

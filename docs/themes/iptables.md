@@ -21,7 +21,7 @@ links: [[606 SPA TOC - Linux Firewall|SPA TOC - Linux Firewall]] - [[themes/000 
 
 ## Predefined chains
 
-- `INPUT`: packets for local proceses ([[netfilter#Netfilter Hooks|netfilter]] hook # 2)
+- `INPUT`: packets for local processes ([[netfilter#Netfilter Hooks|netfilter]] hook # 2)
 - `OUTPUT`: packets from local processes ([[netfilter#Netfilter Hooks|netfilter]] hook # 4)
 - `FORWARD`: forwarded packets ([[netfilter#Netfilter Hooks|netfilter]] hook # 3)
 - `PREROUTING`: incoming packets before routing ([[netfilter#Netfilter Hooks|netfilter]] hook # 1)

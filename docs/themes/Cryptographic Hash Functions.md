@@ -57,7 +57,7 @@ There are like in the SHA family several versions of the hash function:
 
 - Users of BLAKE2: [[Password Based Key Derivation Function (PBKDF)#PBKDF using Argon2|Argon2]], [[WireGuard]], ...
 
-Source [en: Wikpedia](https://en.wikipedia.org/wiki/BLAKE_(hash_function))
+Source [en: Wikipedia](https://en.wikipedia.org/wiki/BLAKE_(hash_function))
 
 ---
 links: [[105 AC1 TOC - Random Oracle & Applications|AC1 TOC - Random Oracle & Applications]] - [[300 Modern Cryptography MOC|Modern Cryptography MOC]] - [[themes/000 Index|Index]]

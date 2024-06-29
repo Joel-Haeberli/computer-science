@@ -177,7 +177,7 @@ There are multiple mechanisms to revoke certificates;
 	- Publicly auditable
 - Most browser enforce CT. At least 2 SCTs are required
 
-![[certificate-transperancy-overview.png]]
+![[certificate-transparency-overview.png]]
 
 ### Deliver SCTs to the Browser
 

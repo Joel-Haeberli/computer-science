@@ -80,7 +80,7 @@ links: [[600 SPA MOC|SPA MOC]] - [[themes/000 Index|Index]]
 7. What happens, if a rule matches/does not match a packet?
 8. Which predefined targets are known with "iptables" and what do they do?
 9. Do you know some "match/target extensions" and their work?
-10. What ist the purpose of the match extension "state"/"conntrack" of iptables?
+10. What is the purpose of the match extension "state"/"conntrack" of iptables?
 11. What states of connections can be checked by iptables using the match extension "conntrack"?
 12. How can packets be marked for further processing?
 13. Which kind of processing can be done?
@@ -138,11 +138,11 @@ links: [[600 SPA MOC|SPA MOC]] - [[themes/000 Index|Index]]
 4. How do you redirect traffic to a filtering proxy using "iptables" or "nftables"?
 5. Which criteria did you use for your filtering proxy?
 6. Which means do you know to explore networks?
-7. Which vulnerability scanner was used in the lab excercises?
+7. Which vulnerability scanner was used in the lab exercises?
 8. What data of your router can you analyze using "nfsen"?
-9. What ist "softflowd" and how can it be used to export flow data?
+9. What is "softflowd" and how can it be used to export flow data?
 10. Explain how "softflowd" and "nfcap/nfsen" interact.
-11. Which security distibutions where used in the lab? Explain their main focus.
+11. Which security distributions where used in the lab? Explain their main focus.
 
 ## Part 2
 

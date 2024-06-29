@@ -116,7 +116,7 @@ The syslog agent needs to map the Windows event log to the syslog specification.
 	delaycompress
 	sharedscripts
 	postrotate
-	/usr/lib/rsyslog/rsyslog-rotate # relaod rsyslog after rotation
+	/usr/lib/rsyslog/rsyslog-rotate # reload rsyslog after rotation
 	endscript
 }
 ```

@@ -20,12 +20,12 @@ Once the attacker finds a vulnerability to inject shell commands, he can execute
 
 - Creating files
 - Read and modify config files
-- Try privilege escalation technics
+- Try privilege escalation techniques
 - Implementing a reverse shell
 
-## Technics to use vulnerabilities
+## Techniques to use vulnerabilities
 
-The technics can be the same as described in [[SQL-Injection]]. First it makes sense to know which system is running the application and which shell is used to execute commands, since this defines which characters are useful for the task of invading the system through Shell-Injection.
+The techniques can be the same as described in [[SQL-Injection]]. First it makes sense to know which system is running the application and which shell is used to execute commands, since this defines which characters are useful for the task of invading the system through Shell-Injection.
 
 ## Protect
 

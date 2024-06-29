@@ -52,7 +52,7 @@ links: [[400 DSS MOC|DSS MOC]] - [[themes/000 Index|Index]]
 - **Chain split**: same as a *Network Fork*
 - **Network Fork**: different parts of the network consider different block chains as valid
 - **Software Fork**: new version of any existing software, normally different client versions ("software forks") coexisting on the network
-- **Hard fork**: update rules such that new blocks are valid under the new rules but perhaps not anymore under the old rules (e.g. increase block size, increase block reward, chaning block format) $\rightarrow$ generally causes a permanent network fork
+- **Hard fork**: update rules such that new blocks are valid under the new rules but perhaps not anymore under the old rules (e.g. increase block size, increase block reward, chaining block format) $\rightarrow$ generally causes a permanent network fork
 - **Soft fork**: update rules that all blocks according to the new rules are also valid according to the old rules (e.g. decrease block size, decrease block reward)
 
 ## Overview Protocol Coins

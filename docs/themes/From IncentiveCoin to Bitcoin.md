@@ -100,7 +100,7 @@ A transaction in ScriptCoin is validated by doing the same process as in [[From 
 1. Do for each input and the referenced output:
 	1. Start with Empty Stack
 	2. Run unlock script of current input
-	3. Run lock script of referenced ouput
+	3. Run lock script of referenced output
 	4. if end of script is reached and stack is empty or top element is true, input is valid.
 
 Remark: **do not chain the scripts all together**

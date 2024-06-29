@@ -63,7 +63,7 @@ Since DANE is building on top of DNSSEC functionality it can't work until DNSSEC
 	- If you loose your keys you may lock out your site visitors
 	- Needs careful planning of key management
 
-## Alternative 3: [Certificate Transparency](https://certificate.transparency.dev/)
+## Alternative 3: [Certificate Transparency](https://certificate.transparency.dev/)
 
 - Public log with all certificates
 - Certificate can contain log proof confirming that it has been added to a log

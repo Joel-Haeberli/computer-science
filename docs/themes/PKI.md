@@ -8,12 +8,12 @@ links: [[611 SPA TOC - Certificates and PKI|SPA TOC - Certificates and PKI]] - [
 
 This topic was already handled in [[Public Key Infrastructure|AC2 - Public Key Infrastructure]]. This document adds some redundancy but summarizes the talking points discussed in the module SPA. 
 
-## PKI Componets
+## PKI Components
 
 - Certificate Authority ([[Public Key Infrastructure#Certification Authority (CA)|CA]])
 - Registration Authority ([[Public Key Infrastructure#Registration Authority (RA)|RA]])
 - Validation Authority ([[Public Key Infrastructure#Validation Authority (VA)|VA]])
-- End Entitiy ([[Public Key Infrastructure#End Entity (EE)|EE]])
+- End Entity ([[Public Key Infrastructure#End Entity (EE)|EE]])
 - [[Public Key Infrastructure#Repository|Repository]]
 ## PKI Architecture
 

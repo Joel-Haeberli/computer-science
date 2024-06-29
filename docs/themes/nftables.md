@@ -21,7 +21,7 @@ links: [[606 SPA TOC - Linux Firewall|SPA TOC - Linux Firewall]] - [[themes/000 
 - pseudo-state machine in kernel-space
 - **fast lookups**
 - reduces the amount of code in kernel space
-- **unified interfact** `nft`
+- **unified interface** `nft`
 - nftables is **still under development** (v1.0.0 was releases in 2021)
 
 ## Main differences between iptables/nftables

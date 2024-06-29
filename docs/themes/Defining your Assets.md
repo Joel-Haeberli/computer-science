@@ -18,9 +18,9 @@ Assets which need to be protected include:
 	- Federal Act on Data Protection: FADP (CH)
 		- Any personal data (data that can be linked to a person), must be protected
 		- Goal of keeping this data must be approved
-		- Organisation holding such data must declare the data and used technics to store them to the data commissioner.
+		- Organisation holding such data must declare the data and used techniques to store them to the data commissioner.
 
-What technics can be used to protect data is described in [[Recommendations to prevent Crypto Failures]].
+What techniques can be used to protect data is described in [[Recommendations to prevent Crypto Failures]].
 
 ---
 links: [[504 WS TOC - Crypto Failures|WS TOC - Crypto Failures]] - [[themes/000 Index|Index]]

@@ -174,7 +174,7 @@ Can perform multiple security functions within one single appliance:
 	- buffer overflow attacks
 	- forceful browsing
 	- unauthorized access to web servers
-	- known vunerabilities of web applications (e.g. Log4J)
+	- known vulnerabilities of web applications (e.g. Log4J)
 
 ## DNS Firewalls
 
@@ -182,7 +182,7 @@ Can perform multiple security functions within one single appliance:
 - able to allow, block or redirect connections based on DNS requests
 - prevent clients from accessing malicious sites $\rightarrow$ clients must use them as resolvers!
 - cannot prevent connections if the client uses DoT (DNS over TLS) or DoH (DNS over HTTPS) on foreign DNS servers
-- use blocklists from subscription services (free or payed)
+- use blocklists from subscription services (free or paid)
 
 ## Hybrid Firewalls
 

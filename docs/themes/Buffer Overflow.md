@@ -63,7 +63,7 @@ What is required to create an exploit?
 
 - The Shellcode
 - The distance to SIP
-- The addres of shellcode (in memory of the process)
+- The address of shellcode (in memory of the process)
 
 ---
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]

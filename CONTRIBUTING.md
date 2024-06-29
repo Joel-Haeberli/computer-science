@@ -28,7 +28,7 @@ All submissions, including submissions by project members, require review. We us
 
 # Pre-Commit
 
-Please install [pre-commit](https://pre-commit.com/) to enforce some checks before commiting
+Please install [pre-commit](https://pre-commit.com/) to enforce some checks before committing
 After clone you need to install the hook script manually:
 
 ```bash

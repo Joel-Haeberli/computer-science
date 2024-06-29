@@ -17,7 +17,7 @@ The Locard's exchange principle was a idea from french criminologist Edmon Locar
 
 - Crime scene = cyber crime scene
 - digital evidence on the client: cookies, cache, data, etc.
-- digital evidence on the server: logs, IP adresses other IOCs (Indicator of compromise)
+- digital evidence on the server: logs, IP addresses other IOCs (Indicator of compromise)
 
 **Adaption to OSINT and Intelligence gathering:**
 
@@ -75,7 +75,7 @@ There are multiple areas of digital forensics...
 
 - Evidence collection/acquisition
 - Preservation, integrity, cain-of-custody
-- Analysis, interpreation
+- Analysis, interpretation
 - Presentation, reporting
 
 **Why is Digital Evidence Important/useful:**
@@ -98,7 +98,7 @@ Digital Evidence is...
 - Network traffic only exists for milliseconds on the wire
 - Over-provisioned areas on flish drives or service areas on disks
 
-**Easy to destory:**
+**Easy to destroy:**
 
 - Booting a PC updates timestamps and modifies files
 - Attaching external drives without a write blocker can modify timestamps, create files or overwrite deleted data

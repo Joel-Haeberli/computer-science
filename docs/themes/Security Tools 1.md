@@ -65,7 +65,7 @@ Example: MAIL.INFO = $2\cdot8+6$
 | Numerical Code | Severity |
 | ---- | ---- |
 | 0 | Emergency: system is unusable |
-| 1 | Alert: action must be taken immediatley |
+| 1 | Alert: action must be taken immediately |
 | 2 | Critical: critical conditions |
 | 3 | Error: error conditions |
 | 4 | Warning: warning conditions |
@@ -143,11 +143,11 @@ options:
 - `-s` snaplen
 - `-w` write out to file
 - `-v` verbose
-- `-Z` drop privilages to user
+- `-Z` drop privileges to user
 - `-D` available network interfaces
 - `-e` print link-level header
 - `-F` use file as input to filter expression
-- `-p` Dont put interface into "promiscous" mode
+- `-p` Dont put interface into "promiscuous" mode
 - `-r` Read packets from file
 
 - **filter** = pcap filtering language using

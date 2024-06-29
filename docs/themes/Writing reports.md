@@ -81,7 +81,7 @@ The report is structured as follows:
 ## Conclusion
 
 - Formalism: Make sure to not forget anything
-- Multiple technics : Combine findings where necessary
+- Multiple techniques : Combine findings where necessary
 - Biggest issue: **Social engineering**
 
 ---

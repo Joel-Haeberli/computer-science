@@ -16,7 +16,7 @@ The risks of LDAP-injection are that an attacker gains access to groups and user
 
 LDAP servers cannot be run in the DMZ of an organisation because it is responsible to authenticate and authorize users for tools used by the organisation. This means that if an attacker can manipulate LDAP, he has reached the private network of the organisation with his attack. So the attacker can control data behind authenticated firewalls.
 
-## Technics to use vulnerabilities
+## Techniques to use vulnerabilities
 
 LDAP-Injections try to abuse the LDAP filter mechanisms. LDAP filter are build by defining operation binding conditions together, followed by the conditions:
 

@@ -242,7 +242,7 @@ The phases are like a cycle.
 - Availability incidents
 	- Unavailability of information could create effects on e.g SLAs
 - Access Control incident
-	- Unauthorized access = system compromize
+	- Unauthorized access = system compromise
 	- Can lead to theft of resources or information breaches
 - Vulnerabilities
 	- Unpatched servers or software

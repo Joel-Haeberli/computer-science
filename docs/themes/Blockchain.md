@@ -180,7 +180,7 @@ Allows users to deploy smart contracts (programs) on the blockchain which miners
 
 ## Case study
 
-“A company is developing new software for private payments. This will enable its customers to transact with “complete” privacy (like cash). The solution does not include backdoors, and thus the company cannot block payments to support trade embargos or anti money laundering efforts.”
+“A company is developing new software for private payments. This will enable its customers to transact with “complete” privacy (like cash). The solution does not include backdoors, so the company cannot block payments to support trade embargoes or anti-money laundering efforts".
 
 ### Virtues
 

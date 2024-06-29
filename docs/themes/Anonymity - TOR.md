@@ -16,7 +16,7 @@ Tor is a P2P network of **low-latency** mixes which are used to provide anonymou
 
 **Example**
 
-- Client choses which mix servers he wants to use for communication
+- Client chooses which mix servers he wants to use for communication
 - Set up symmetric key $K_{S_1}$ with first mix server
 - Through first mix server set up symmetric key $K_{S_2}$ with second mix server
 - Repeat until user has a key for every mix server

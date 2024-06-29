@@ -21,7 +21,7 @@ links: [[614 SPA TOC - Secure Shell|SPA TOC - Secure Shell]] - [[themes/000 Inde
 
 ![[SSH-sequence-diagram.png]]
 
-## Transport Leyer
+## Transport Layer
 
 - Defined in RFC 4253
 - The transport layer provides algorithm negotiation, key exchange and server authentication and sets up a secured connection that provides integrity, confidentiality and optional compression

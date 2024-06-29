@@ -28,9 +28,9 @@ SQL Injections pose risks because:
 - Modify commands such that security checks can be omitted and therefore data that should not be accessible gets visible for the attacker
 - An attacker might be able to write files to the filesystem. This file could also be an executable.
 
-## Technics to use vulnerabilities
+## Techniques to use vulnerabilities
 
-In order to use programs vulnerability for SQL injection, we could use following technics:
+In order to use programs vulnerability for SQL injection, we could use following techniques:
 
 - Try out injection the attacker code and comment out the rest
 	- therefore use `#` or `--` at the end
@@ -45,9 +45,10 @@ In order to use programs vulnerability for SQL injection, we could use following
 
 Avoid using the interpreter. Which means keeping data separate form commands and queries.
 
-Use safe API such as Strongly typed parameterized queries (Prepared Statements) or an ORM (Object Relational Mapping). Remember to still do some validation because these technics do only handle data escaping.
+Use safe API such as Strongly typed parameterized queries (Prepared Statements) or an ORM (Object Relational Mapping). Remember to still do some validation because these techniques do only handle data escaping.
 
-If you cannot avoid using an interpreter directly take care and be reminded of following technics:
+If you cannot avoid using an interpreter directly take care and be reminded of following techniques
+:
 
 - Validate your input
 - Use Prepared Statements (strongly typed parameterized queries)
