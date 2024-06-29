@@ -56,13 +56,15 @@ links: [[702 DF TOC - Storage & Acquisition|DF TOC - Storage & Acquisition]] - [
 
 In the context of computer storage and interfaces, "bridges" refer to components or software that connect two different systems or data protocols, enabling them to communicate effectively despite having different native languages or operational architectures. These bridges often translate commands and manage data transfer between systems with different standards, ensuring compatibility and functionality across diverse hardware and software environments.
 
-For the slide's content:
-
+**Common drive interface protocols**
 - **ATA Command Set, ATAPI, SCSI, and USB protocols (BOT and UAS)** involve different methods and standards for data transfer and device communication. ATA and ATAPI are more traditional with direct, register-based commands, whereas SCSI and USB (including both BOT and UAS) provide options for networked and peripheral device communications with more advanced features like command queuing.
 
+**Common interface standards**
 - **Interface standards like SATA (AHCI), USB (xHCI), and NVMe** define how devices communicate with the computer's operating system through specific controller interfaces, which are crucial for supporting higher speeds and more efficient access to storage media.
 
-In forensics, understanding these protocols and bridges is crucial because they determine how data can be accessed and read from storage devices. ***Forensic tools often need to interface with these various standards to extract data without altering it, which is where write-blockers come into play. Write-blockers are devices or software that prevent data from being written back to the device being examined, thus maintaining the integrity of the data during forensic analysis. This is essential for ensuring that the evidence remains unaltered and is admissible in court.***
+In forensics, understanding these protocols and bridges is helpful because they determine how data can be accessed and read from storage devices.
+
+***Forensic tools often need to interface with these various standards to extract data without altering it, which is where write-blockers come into play. Write-blockers are devices or software that prevent data from being written back to the device being examined, thus maintaining the integrity of the data during forensic analysis. This is essential for ensuring that the evidence remains unaltered and is admissible in court.***
 
 ## Sector Sizes
 
