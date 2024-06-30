@@ -138,5 +138,16 @@ jle short loop_start          ; Jump to 'loop_start' if counter is less than or 
 	- [Godbolt](https://godbolt.org/)
 	- [RetDec](https://retdec.com/decompilation-run/)
 
+## Compiling options
+
+- **Disable optimization**: `-O0` , tells the compiler to disable all optimization, resulting in a straightforward translation of the source code to machine code, which is useful for debugging.
+- **Disable Frame pointer**: `-fno-omit-frame-pointer`, instructs the compiler to generate code that preserves the frame pointer in each function, which is useful for debugging and profiling by maintaining reliable stack traces.
+- **32 bit architecture**: `-m32` for 32 bit binary
+- **Disable DEP**: `-z execstack`, make stack executable again
+- **Disable PIE**: `-no-pie -fno-pie`, ensuring that the output binary is not position-independent and can be loaded at a fixed address
+- **Other arguments used in examples**
+	- `-ggdb`: instructs the compiler to generate debugging information in the native format (DWARF) for use with GDB, including GDB-specific extensions for enhanced debugging capabilities.
+	- `-lcrypt`: tells the linker to link the program with the crypt library
+
 ---
 links: [[904 ED TOC - Assembler|ED TOC - Assembler]] - [[themes/000 Index|Index]]

@@ -6,7 +6,7 @@ links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]
 
 ---
 
-* [[Debugging with GDB]]
+* [[Debugging]]
 
 ---
 links: [[900 ED MOC|ED MOC]] - [[themes/000 Index|Index]]

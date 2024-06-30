@@ -44,6 +44,14 @@ links: [[903 ED TOC - Memory Layout|ED TOC - Memory Layout]] - [[themes/000 Inde
 - **Heap**: `rw-` data segment $\rightarrow$ heap variables (e.g. global variables)
 - **Stack**: `rw-` stack $\rightarrow$ stack variables
 
+**Variable mapping in section**
+
+- Global variable: `.data`
+- Global static variable (`const`): `.rodata`
+- Heap variable (with `malloc()`): only at runtime available, address after/higher as `.bss` vars
+- Stack variable: only at runtime available (high address)
+- Function address: `.text`
+
 **Memory Example in C**
 
   - Global variables are located in the data segment.
