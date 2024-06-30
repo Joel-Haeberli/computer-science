@@ -39,7 +39,8 @@ Cables & Protocols, Smartdata (e.g. there was data written, where is it?)
 
 **What are some typical drive interfaces used to connect the storage?**
 
-
+Modern: SATA, SAS, NVME
+Historical: IDE, SCSI, ATA
 
 **What are the common sector sizes on a storage device?**
 
@@ -47,7 +48,7 @@ Traditional 512bytes, now 4096bytes
 
 **What is the job of the flash translation layer (FTL) in SSDs?**
 
-
+Responsible for mapping logical block addresses used by the operating system to physical block addresses on flash memory devices, managing wear leveling and bad block remapping to optimize performance and extend the lifespan of the storage medium.
 
 **Why is deleted data usually found on magnetic storage devices?**
 
@@ -88,15 +89,19 @@ Analyze blocks, icat, mmls, ...
 
 **Explain different offsets found in forensic work**
 
-
+Byte offset, Sector offset, Block offset
 
 **Explain the different between a sector, filesystem block, and inode**
 
-
+- **Sector:** Physical unit of storage on the disk.
+- **Filesystem Block:** Logical unit of data storage used by the filesystem, consisting of one or more sectors.
+- **Inode:** A data structure that describes files and directories, pointing to where their data blocks are located on the disk.
 
 **What is NSRL?**
 
-
+- Hash DB / Hash set
+- Used to filter out unimportant data (Hashes of Excel Software files for example)
+- Find specific files or types of files (illegal images, malware)
 
 **What are hash databases (or hash sets) good for?**
 
@@ -105,43 +110,70 @@ Analyze blocks, icat, mmls, ...
 
 **What kind of operating system artifacts are interesting in forensics?**
 
-
+- Logs shutdown, login, logout, user logs, shell history
+- files downloaded
+- config
+- Software logs (What tools were installed / uninstalled)
 
 **What kind of application artifacts are interesting in forensics?**
 
-
+- Application cache
+- Browsing history
+- Previously opened docume
 
 **What is the difference between static and dynamic analysis of executable code?**
 
+- Not part of exam
 
+**Explain forensic carving and what it is**
 
-**Explain forensic carving and when it is**
-
-
+ - Used when filesystem is corrupted or disk is partially destroyed
+- Looking at raw sectors / blocks to recover files
+- Looking at header, footer, structure
+- Carving files vs carving strings
 
 **What is the UNIX epoch, and why is that important to know in forensics?**
 
-
+- Seconds since 01.01.1970
+- Often used as timestamp
 
 **What are the MACB timestamps and what do they mean?**
 
-
+- Modified, Accessed, Changed, Birth Timestamps
+- File Metadata
 
 **What are some challenges with making timelines?**
 
-
+- Time not always synced
+- Timeszones
+- Automatic Sync when user is travelling
 
 **What are the different types of encryption implementations that can be found in a forensic analysis?**
 
-
+- OPAL (Encryption on firmware level, OS doesn't know anything is encrypted)
+- Encryption on Block layer (Bitlocker, Filevault)
+- Encrypt files / folders
+- One of biggest challenges for forensics
 
 **What are the possibilities for recovering passwords or keys?**
 
-
+Keys might be on the drive, someone might know it, brute force, rainbow table
 
 **What is steganography?**
 
+- Hide data inside data (z.B. least signification bit in pixels)
 
+**Mobile Forensics**
+
+- Problems
+	- Unlocking is very hard
+	- Encryption (chipoff won't help)
+	- Proprietary interfaces
+	- Proprietary file formats
+	- Can't remove battery / disable radio (User can still remote wipe) $\rightarrow$ Solution:  Faraday cage to block radio waves
+- Mobile forensic companies buy exploits for tools
+- Mobile artifacts
+	![[mobile-artifacts.png]]
 
 ---
 links: [[700 DF MOC|DF MOC]] - [[themes/000 Index|Index]]
