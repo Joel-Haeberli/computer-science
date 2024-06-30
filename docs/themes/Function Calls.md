@@ -76,6 +76,9 @@ void main(void) {
 `add()` function in assmembly:
 
 ```assembly
+; push arguments before call (or save it in registers)
+push 0x...
+
 ; call <addr>
 push eip          ; save instruction pointer (SIP) to stack
 jmp 0x11223344    ; jump to add() function address
@@ -84,7 +87,8 @@ jmp 0x11223344    ; jump to add() function address
 push ebp          ; save base pointer (SBP) to stack for callee
 mov ebp, esp      ; base pointer is now set to stack pointer ("new" stack)
 
-; function
+; function (empty function with direct return)
+nop
 
 ; epilogue
 move esp, ebp     ; leave, stack pointer now base pointer again
@@ -96,6 +100,10 @@ pop eip           ; ret, restore instruction pointer (callee)
 
 - when a function is called: `EIP` is pushed on the stack (`SIP`) via `call`
 - at the end of the function: `SIP` is recovered into `EIP` (`pop eip`)
+- **arguments** are referenced with a positive number via EBP (e.g. `ebp+0x08`), they are pushed into the stack frame of the calling function (positive numbers leave the actual stack frame and go up the stack).
+	- **Function arguments** in C can be either pushed onto the stack or saved in registers before calling the function, depending on the calling convention and architecture in use.
+- **local variables** are referenced with negative number via EBP (e.g. `ebp-0x4`), they are pushed in the stack frame of the function
+- **return values** of functions are communicated to the parent function by placing it in specific register as defined by the architecture's calling convention (`eax`/`rax` in x86/x86_64)
 
 ## Function Calls in x64
 

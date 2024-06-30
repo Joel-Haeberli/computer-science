@@ -28,6 +28,7 @@ Shellcode is:
 
 - Assembler instructions
 - **Native code** which performs a certain action (like starting a shell)
+- Example how to create shellcode from `objdump`: [[Debugging#objdump|Debugging]] (or use the [pwntool](https://docs.pwntools.com/en/stable/) python library)
 
 **Properties**
 

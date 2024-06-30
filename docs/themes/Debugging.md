@@ -1,12 +1,71 @@
-tags: #debugging #gdb
+tags: #debugging #gdb 
 
-# Debugging with GDB
+# Debugging
 
 links: [[907 ED TOC - Debugging|ED TOC - Debugging]] - [[themes/000 Index|Index]]
 
 ---
 
-**GDB Commands Summary**
+## Static analysis
+
+### file
+
+Get generic information about the executable. Example:
+
+- 32 bit
+- little endian machine (`LSB`)
+- Intel 80386 (x86)
+- Dynamically linked
+- Not stripped (debug symbols are still there)
+
+```bash
+$ file challenge00
+challenge00: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=a8dae60baebe49945ea443d4cc4198b946da27fc, not stripped
+```
+
+### readelf
+
+Display information about the sections and segments of the program on disk:
+
+```bash
+# get segments
+readelf -l challenge00
+
+# get segments & sections
+readelf -l -S challenge01
+```
+
+### objdump
+
+Decompile the program on disk (same as `gdb disas`). It will use the [[Assembler 101#Intel vs. AT&T Assembly Syntax|AT&T syntax]]:
+
+```bash
+objump -d challenge00 | less
+```
+
+We can create [[shellcode]] from the output of objump:
+
+```bash
+# must not contain null bytes (change asm code!)
+objdump -d print | grep "^ " \
+ | cut -d$'\t' -f 2 | tr '\n' ' ' | sed -e 's/ *$//' \
+ | sed -e 's/ \+/\\x/g' | awk '{print "\\x"$0}'
+```
+
+### hexdump
+
+Analyse binary data of a file in a textual hexadecimal view:
+
+```bash
+# create hexcode of string
+echo "Hi there" | hexdump -C
+
+# skip -s bytes (offset), read -n bytes
+hexdump -C -s 0x3018 -n 32 challenge01
+```
+
+## Dynamic analysis
+### gdb
 
 **Starting and Running GDB**
 
