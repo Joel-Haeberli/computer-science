@@ -148,6 +148,7 @@ jle short loop_start          ; Jump to 'loop_start' if counter is less than or 
 - **Other arguments used in examples**
 	- `-ggdb`: instructs the compiler to generate debugging information in the native format (DWARF) for use with GDB, including GDB-specific extensions for enhanced debugging capabilities.
 	- `-lcrypt`: tells the linker to link the program with the crypt library
+	- `-fno-stack-protector`: disables the generation of extra code that detects stack buffer overflows, making the compiled code more vulnerable to such attacks but potentially faster.
 
 ---
 links: [[904 ED TOC - Assembler|ED TOC - Assembler]] - [[themes/000 Index|Index]]

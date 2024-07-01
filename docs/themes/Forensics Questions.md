@@ -11,7 +11,8 @@ Police (fedpol), NCSC, Military, Companies (SOC/CISO), Security companies (Trend
 
 **What is the difference between forensic acquisition and forensic analysis?**
 
-Mostly separate teams
+Mostly separate teams:
+
 - Acquisition: collection/getting as much data as possible (storage: usb sticks, IoT devices, .../Staubsuger/...), creation of image (specific format, dd, compressed, ...)
 - Analysis: data analysis in specific format (...) or raw (dd image), pre-processing data (index, database for search), understand the data (where it started), decompress (e.g. mail with zip attachment containing a word file contains images), correlate logs/cameras/filesystem timestamps/other data
 
@@ -119,7 +120,7 @@ Byte offset, Sector offset, Block offset
 
 - Application cache
 - Browsing history
-- Previously opened docume
+- Previously opened documents
 
 **What is the difference between static and dynamic analysis of executable code?**
 
