@@ -125,5 +125,4 @@ Examples:
 Special program called `tee` sends to multiple files and stdout: `program | tee file1 file2 file3`
 
 ---
-
 links: [[701 DF TOC - Forensics Basics & History|DF TOC - Forensics Basics & History]] - [[themes/000 Index|Index]]

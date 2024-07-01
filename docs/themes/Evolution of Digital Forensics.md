@@ -61,5 +61,4 @@ While we can't predict the future with certainty, several trends seem likely to 
 International data access treaties may facilitate cross-border investigations, and long-term social network analysis might lead to new advancements in forensic psychology. Despite these potential changes, crime will persist, and digital forensics will remain crucial for gathering evidence and solving crimes.
 
 ---
-
 links: [[701 DF TOC - Forensics Basics & History|DF TOC - Forensics Basics & History]] - [[themes/000 Index|Index]]

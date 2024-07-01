@@ -128,7 +128,7 @@ Byte offset, Sector offset, Block offset
 
 **Explain forensic carving and what it is**
 
- - Used when filesystem is corrupted or disk is partially destroyed
+- Used when filesystem is corrupted or disk is partially destroyed
 - Looking at raw sectors / blocks to recover files
 - Looking at header, footer, structure
 - Carving files vs carving strings

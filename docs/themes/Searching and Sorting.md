@@ -112,5 +112,4 @@ Commercial forensic tools provide enhanced capabilities, including:
 - Advanced features like fuzzy searching, artificial intelligence, OCR scanning, and audio/video transcription.
 
 ---
-
 links: [[705 DF TOC - Encryption & Timelines & Find|DF TOC -Encryption & Timelines & Find]] - [[themes/000 Index|Index]]

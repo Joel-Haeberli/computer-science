@@ -56,6 +56,7 @@ These applications can contain critical forensic artifacts that help understand 
 This examination helps in constructing a detailed picture of user interactions, application usage, and potential forensic evidence related to the application.
 
 **Examples**
+
 - Anomalie: Except an Android but have continuous mouse moving
 - Have a printer with A4 configured $\rightarrow$ not in US
 - every person has unique set of apps $\rightarrow$ produces a unique telemetry/fingerprint

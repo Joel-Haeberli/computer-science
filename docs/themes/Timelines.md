@@ -99,5 +99,4 @@ A supertimeline aggregates timestamps from multiple sources, including:
 The `log2timeline/plaso` framework, written in Python, is a comprehensive tool for creating supertimelines.
 
 ---
-
 links: [[705 DF TOC - Encryption & Timelines & Find|DF TOC -Encryption & Timelines & Find]] - [[themes/000 Index|Index]]

@@ -94,7 +94,7 @@ Digital Evidence is...
 - Attacks and intrusions may be cleverly hidden (obfuscation, crypto, steg)
 - Anti-forensic activity prevents collection
 - Encrypted drives and files
-- Properietary devices or file formats
+- Proprietary devices or file formats
 - Network traffic only exists for milliseconds on the wire
 - Over-provisioned areas on flish drives or service areas on disks
 
@@ -112,5 +112,4 @@ Digital Evidence is...
 - [r/computerforensics](https://www.reddit.com/r/computerforensics/) and [r/digitalforensic](https://www.reddit.com/r/digitalforensics/)
 
 ---
-
 links: [[701 DF TOC - Forensics Basics & History|DF TOC - Forensics Basics & History]] - [[themes/000 Index|Index]]
