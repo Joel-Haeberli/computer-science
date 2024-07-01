@@ -8,7 +8,7 @@ links: [[703 DF TOC - Analysis & Carving|DF TOC - Analysis & Carving]] - [[theme
 
 ## Concept
 
-Carving tools are used as a last-resort, best-effort method to extract files from unstructured data blobs. They search for file headers and footers, and sometimes look for file structures or patterns. Some tools also look for partial filesystem structures. The term "carving" comes from the English word "carve," similar to carving wood.
+Carving tools are used as a **last-resort**, best-effort method to extract files from unstructured data blobs. They search for file headers and footers, and sometimes look for file structures or patterns. Some tools also look for partial filesystem structures. The term "carving" comes from the English word "carve," similar to carving wood.
 
 ## Tools
 
@@ -97,5 +97,4 @@ There are also network traffic carver like **tcpxtract**: extract files from PCA
 	- **TCT findkey**: An older tool for finding keys (availability limited).
 
 ---
-
 links: [[703 DF TOC - Analysis & Carving|DF TOC - Analysis & Carving]] - [[themes/000 Index|Index]]

@@ -94,5 +94,4 @@ Mobile forensics has evolved beyond traditional mobile phones to include various
 - **Third-party Evidence:** Using geolocation data from non-involved people or objects, like AirTags, for investigative purposes.
 
 ---
-
 links: [[706 DF TOC - Mobile Forensics|DF TOC - Mobile Forensics]] - [[themes/000 Index|Index]]

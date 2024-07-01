@@ -120,5 +120,4 @@ Several tools are available for steganography:
 Steganography can also be applied to network communication, using covert channels and anonymization techniques to hide data within regular network traffic, making it difficult to detect and intercept.
 
 ---
-
 links: [[705 DF TOC - Encryption & Timelines & Find|DF TOC -Encryption & Timelines & Find]] - [[themes/000 Index|Index]]
