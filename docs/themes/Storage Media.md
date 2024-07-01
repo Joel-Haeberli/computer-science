@@ -131,7 +131,7 @@ In forensics, understanding these protocols and bridges is helpful because they 
     - **TTL/Serial Access:** Employs Transistor-Transistor Logic (TTL) or serial connections to directly communicate with drive electronics.
     - **Security Exploits:** Involves exploiting vulnerabilities in the system's security to gain unauthorized access.
     - **Glitching and Fault Injection:** Introduces faults or glitches deliberately into the system to trigger unintended behaviours that can be exploited for access.
-    - **Hardware Hacking:** https://www.youtube.com/watch?v=dT9y-KQbqi4
+    - **Hardware Hacking:** [https://www.youtube.com/watch?v=dT9y-KQbqi4](https://www.youtube.com/watch?v=dT9y-KQbqi4)
 
 2. **Data Location:**
     

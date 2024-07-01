@@ -24,7 +24,7 @@ links: [[707 DF TOC - Labs & Tools|DF TOC - Labs & Tools]] - [[themes/000 Index|
 * **journalctl**: A command to query and display messages from the journal, which logs systemd messages and events.
 ## Forensic tools
 
-* ***disktype**: A command-line utility that provides detailed information about disk images and partitions.
+* **disktype**: A command-line utility that provides detailed information about disk images and partitions.
 * **dc3dd**: A forensic disk imaging tool similar to `dd` but with additional features such as data verification and logging.
 * **dcfldd**: An enhanced version of `dd` developed by the U.S. Department of Defense Computer Forensics Lab (DCFL). It includes features like progress indicators and multiple output files.
 * **sfsimage**: A forensic imaging tool that captures images of filesystems.
@@ -39,6 +39,7 @@ links: [[707 DF TOC - Labs & Tools|DF TOC - Labs & Tools]] - [[themes/000 Index|
 * **lsblk**: Lists information about all available block devices, such as hard drives and their partitions.
 * **hdparm**: A command-line utility for displaying and setting hardware parameters of hard disk drives.
 * **smartctl**: Part of the Smartmontools package, it is used to monitor and control storage devices using the Self-Monitoring, Analysis, and Reporting Technology (SMART) system built into most modern drives.
+
 ### Sleuth Kit
 
 **Autopsy**: A graphical interface to The Sleuth Kit. Helps in analyzing disk images, file systems, and digital artifacts.
