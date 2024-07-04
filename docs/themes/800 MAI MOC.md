@@ -8,7 +8,7 @@ links: [[themes/000 Index|Index]]
 
 - **Topic 01**: [[themes/801 MAI TOC - Actors & Tools & Attacks|Actors & Tools & Attacks]]
 - **Topic 02**: [[themes/802 MAI TOC - Windows & OS background|Windows & OS background]]
-- **Topic 03**: [[themes/803 MAI TOC - Malware Execution|Malware Execution]]
+- **Topic 03**: [[Malware Execution|Malware Execution]]
 - **Topic 04**: [[themes/804 MAI TOC - Hooking|Hooking]]
 - **Topic 05**: [[themes/805 MAI TOC - Malware Persistence|Malware Persistence]]
 - **Topic 06**: [[themes/806 MAI TOC - Malware Identification|Malware Identification]]
