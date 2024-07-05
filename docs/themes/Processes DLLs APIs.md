@@ -14,7 +14,7 @@ The following tools are used to inspect Windows processes and memory maps:
 - VMMap (Windows Sysinternals)
 - Process Hacker [https://processhacker.sourceforge.io/](https://processhacker.sourceforge.io/)
 
-TODO: Add link to cookbook or something to show how to use the tools
+See [[Malware Analysis Tools]] & [[Malware Exam Cookbook]] on how to use this tools.
 
 ## Processes
 
@@ -39,24 +39,24 @@ Application Programming Interfaces (APIs) are sets of functions provided by DLLs
 **API examples**
 
 - Win32 APIs on files
-	- CreateFile
-	- WriteFile
-	- ReadFile
-	- SetFilePointer
-	- Delete File
-	- Close File
+	- `CreateFile`
+	- `WriteFile`
+	- `ReadFile`
+	- `SetFilePointer`
+	- `DeleteFile`
+	- `CloseFile`
 - Win32 APIs on registry
-	- RegCreateKey
-	- RegDeleteKey
-	- RegSetValue
+	- `RegCreateKey`
+	- `RegDeleteKey`
+	- `RegSetValue`
 - Win32 APIs on virtual memory
-	- VirtualAlloc
-	- VirtualProtect
-	- NTCreateSection
-	- WriteProcessMemory
+	- `VirtualAlloc`
+	- `VirtualProtect`
+	- `NTCreateSection`
+	- `WriteProcessMemory`
 - Win32 APIs on mutex
-	- Create Mutex
-	- OpenMutex
+	- `CreateMutex`
+	- `OpenMutex`
 
 Handles are unique identifiers used by the Windows API to represent objects such as files, processes, and memory allocations. For example, `CreateFile` returns a handle that can be used in subsequent operations like `WriteFile` to perform actions on the specified file.
 
@@ -71,5 +71,4 @@ WriteFile(hFile2, DataBuffer, dwBytesToWrite, &dwBytesWritten, NULL); WriteFile(
 ```
 
 ---
-
 links: [[802 MAI TOC - Windows & OS background|MAI TOC - Windows & OS background]] - [[themes/000 Index|Index]]

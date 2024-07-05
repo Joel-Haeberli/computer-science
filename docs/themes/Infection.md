@@ -19,8 +19,8 @@ Infection vectors refer to the means and techniques used to deliver malware onto
 
 - **Definition**: Infection vectors are methods used by attackers to introduce malware into a system or network.
 - **Examples**:
-  - **Exploiting Unpatched Software**: Attackers take advantage of software vulnerabilities that have not been patched by the user.
-  - **Misconfigurations in Network Devices**: Incorrect settings in devices like firewalls and web servers can allow attackers to gain access.
+	- **Exploiting Unpatched Software**: Attackers take advantage of software vulnerabilities that have not been patched by the user.
+	- **Misconfigurations in Network Devices**: Incorrect settings in devices like firewalls and web servers can allow attackers to gain access.
 
 ![[entry_vectors.png]]
 

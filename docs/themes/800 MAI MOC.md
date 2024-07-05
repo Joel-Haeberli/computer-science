@@ -16,6 +16,7 @@ links: [[themes/000 Index|Index]]
 - **Topic 08**: [[themes/808 MAI TOC - Guest Lectures|Guest Lectures]]
 - **Topic 09**: [[Malware Labs|Labs]]
 - **Topic 10**: [[Malware Exam Cookbook|Exam Cookbook]]
+- [[Malware Analysis Tools]]
 
 ---
 links: [[themes/000 Index|Index]]

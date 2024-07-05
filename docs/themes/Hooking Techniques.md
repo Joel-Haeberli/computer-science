@@ -1,4 +1,4 @@
-tags: #malware-analysis
+tags: #malware-analysis #hooking
  
 # Hooking techniques
 
@@ -8,7 +8,7 @@ links: [[804 MAI TOC - Hooking|MAI TOC - Hooking]] - [[themes/000 Index|Index]]
 
 ## Introduction
 
-Hooking is a technique used in malware to intercept and modify the execution flow of software. It allows an attacker to manipulate data, steal information, and take control of processes. While often associated with malicious activities, hooking also has legitimate applications in software development and security tools.
+Hooking is a technique used in malware to **intercept and modify the execution flow** of software. It allows an attacker to manipulate data, steal information, and take control of processes. While often associated with malicious activities, **hooking also has legitimate applications** in software development and security tools.
 
 ## Why Malware Uses Hooking
 
@@ -93,6 +93,8 @@ Hooking is a technique used in malware to intercept and modify the execution flo
 
 ### HollowsHunter
 
+See [[Malware Analysis Tools#Hollows hunter|HollowsHunter]]
+
 - **Overview**: HollowsHunter is a versatile tool used to find code injections and hooks.
 - **Functionality**: 
     - **Inline Hooks**: Can identify inline hooks using commands like `hollows_hunter32.exe /hooks`.
@@ -101,5 +103,4 @@ Hooking is a technique used in malware to intercept and modify the execution flo
     - **Details**: Reports include information such as the name of the hooked API, the relative virtual address of the hook, and the module to which the hook points.
 
 ---
-
 links: [[804 MAI TOC - Hooking|MAI TOC - Hooking]] - [[themes/000 Index|Index]]

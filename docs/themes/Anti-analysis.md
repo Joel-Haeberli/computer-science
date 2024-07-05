@@ -82,5 +82,4 @@ To counteract these anti-analysis techniques, modern sandboxes employ several st
 - **Time Manipulation**: Bypassing sleep timers by manipulating the system clock.
 
 ---
-
 links: [[807 MAI TOC - Dynamic Analysis|MAI TOC - Dynamic Analysis]] - [[themes/000 Index|Index]]

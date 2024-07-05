@@ -69,5 +69,4 @@ While dynamic analysis provides valuable insights, it has some limitations:
 - **Anti-analysis Techniques**: Malware may employ various anti-analysis techniques to detect and evade dynamic analysis environments, such as sandboxes or debuggers.
 
 ---
-
 links: [[807 MAI TOC - Dynamic Analysis|MAI TOC - Dynamic Analysis]] - [[themes/000 Index|Index]]
