@@ -110,7 +110,7 @@ These methods are used by attackers to gain initial access to target systems, of
 - **Exploiting Technical Vulnerabilities**: Taking advantage of software or hardware weaknesses.
 - **Physical Access**: Using physical means to gain access to systems, such as infected USB sticks or other devices.
 
-![[initial_acess_techniques.png]]
+![[initial_access_techniques.png]]
 ## Case Studies and Examples
 
 This section provides real-world examples of notable attacks and infection techniques to illustrate how attackers operate and highlight the practical implications of these methods.
