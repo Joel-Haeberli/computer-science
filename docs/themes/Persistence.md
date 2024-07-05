@@ -43,7 +43,7 @@ Windows services are processes running independently of user logons, providing v
 - **Malware Usage**: Malware can use services to launch itself, disable security services, or load malicious drivers. It may also stop services for self-defense, such as antivirus or firewall services.
 - **Creation of Services**: Malware typically uses tools and techniques like `sc.exe`, `regsvr32.exe`, or the Windows API to create services.
 
-**Example Command to Create a Service**:
+**Example Command to create a service**:
 
 ```sh
 sc create TestService2 start=auto binpath=C:\Users\Username\Desktop\Sample.exe
@@ -73,6 +73,7 @@ On Windows 10 and later, scheduled tasks are handled by a `svchost.exe` process.
 - `C:\Windows\SysWow64\Tasks`
 
 ##### Binary Patching / File Infections
+
 Binary patching involves adding malicious code to existing executables or DLLs. This method, historically known as a "virus," can make malware start very early in the boot process, especially with MBR patching.
 
 **Detection of Binary Patching**:
@@ -107,5 +108,4 @@ Binaries in Windows startup directories are automatically started by the OS afte
 Malware can place executables in these directories to achieve persistence.
 
 ---
-
 links: [[805 MAI TOC - Malware Persistence|MAI TOC - Malware Persistence]] - [[themes/000 Index|Index]]

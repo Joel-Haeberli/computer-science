@@ -76,7 +76,7 @@ Common methods for initial access include malicious email attachments, unpatched
 
 ### Malware and Tools
 
-After gaining initial access, attackers install malware, send commands, and deploy new tools. This includes lateral movement within the network to compromise more machines and gain control over the victim's network.
+After gaining initial access, attackers install malware, send commands, and deploy new tools. This includes **lateral movement** within the network to compromise more machines and gain control over the victim's network.
 
 ### Droppers and Downloaders
 

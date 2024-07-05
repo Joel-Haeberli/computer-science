@@ -11,5 +11,4 @@ links: [[800 MAI MOC|MAI MOC]] - [[themes/000 Index|Index]]
 * [[Anti-analysis]]
 
 ---
-
-inks: [[800 MAI MOC|MAI MOC]] - [[themes/000 Index|Index]]
+links: [[800 MAI MOC|MAI MOC]] - [[themes/000 Index|Index]]

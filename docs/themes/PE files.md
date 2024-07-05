@@ -13,7 +13,7 @@ Portable Executable (PE) files are the standard format for executables and libra
 **File Formats**: Different operating systems use different file formats for executables and libraries:
 
 - Windows: PE files
-- Linux: ELF files
+- Linux: [[Memory Layout#Linux Userspace Process Memory Layout|ELF files]]
 - MacOS: Mach-O files
 
 PE files are easy to spot in hex dumps:
@@ -46,7 +46,7 @@ PE files are easy to spot in hex dumps:
 
 #### Import Address Table (IAT)
 
-The IAT holds addresses of imported APIs, allowing the executable to locate and call these functions in memory. The image loader populates the IAT during the loading process.
+The IAT holds addresses of imported APIs, allowing the executable to locate and call these functions in memory. The image loader populates the IAT during the loading process (like PLT in Linux).
 
 ![[PEFile_IAT.png]]
 
@@ -55,5 +55,4 @@ The IAT holds addresses of imported APIs, allowing the executable to locate and 
 **Export Directory**: DLLs declare the APIs they export in the export directory of the PE file. This information is used by other executables or DLLs to locate and call the exported functions.
 
 ---
-
 links: [[802 MAI TOC - Windows & OS background|MAI TOC - Windows & OS background]] - [[themes/000 Index|Index]]
