@@ -1,0 +1,33 @@
+<?xml version="1.0"?>\
+	<!--\
+	API Monitor Filter\
+	(c) 2010-2013, Rohitab Batra <rohitab@rohitab.com>\
+	http://www.rohitab.com/apimonitor/\
+	-->\
+<ApiMonitor>\
+	<CaptureFilter>\
+		<Module Name="Kernel32.dll">\
+			<Api Name="CreateFileW"/>\
+			<Api Name="CreateProcessW"/>\
+			<Api Name="CreateRemoteThread"/>\
+			<Api Name="CreateRemoteThreadEx"/>\
+			<Api Name="LoadLibraryExW"/>\
+			<Api Name="LoadLibraryW"/>\
+			<Api Name="OpenProcess"/>\
+			<Api Name="ResumeThread"/>\
+			<Api Name="VirtualAllocEx"/>\
+			<Api Name="WriteProcessMemory"/>\
+		</Module>\
+		<Module Name="Ntdll.dll">\
+			<Api Name="NtOpenProcess"/>\
+			<Api Name="NtProtectVirtualMemory"/>\
+			<Api Name="NtResumeProcess"/>\
+			<Api Name="NtResumeThread"/>\
+			<Api Name="NtUnmapViewOfSection"/>\
+			<Api Name="NtWriteVirtualMemory"/>\
+		</Module>\
+		<Module Name="User32.dll">\
+			<Api Name="SetWindowsHookExW"/>\
+		</Module>\
+	</CaptureFilter>\
+</ApiMonitor>}
