@@ -17,6 +17,16 @@ Malware analysis is a crucial aspect of cybersecurity due to the increasing prev
 
 Cybercriminals use malware primarily to earn money. Ransomware attacks targeting companies and organizations are currently the most prevalent form of cybercrime. Other activities include e-banking fraud, identity theft, and credit card fraud. The nature of cybercrime is evolving, with a shift from individual to organizational targets. Everyone is a potential target of cybercrime, emphasizing the need for effective malware analysis and defense mechanisms.
 
+## Cyber kill chain
+
+1. Reconnaissance
+2. Weaponization
+3. Delivery
+4. Exploitation
+5. Installation
+6. Command & Control (C2)
+7. Actions on objectives
+
 ## Actors
 
 The actors involved in cyber attacks range from individual criminals to state-sponsored entities.
