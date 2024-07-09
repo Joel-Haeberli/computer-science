@@ -55,22 +55,26 @@ Malware can identify characteristics unique to sandbox environments, such as con
 ### Detecting Analysis Tools
 
 Malware might look for the presence of specific processes or files associated with analysis tools. For example:
+
 - **Process Checks**: Searching for running processes like `wireshark.exe` or `procmon.exe`.
 - **File System Checks**: Looking for installation directories or configuration files associated with analysis tools.
 
 ### Virtual Machine Detection via CPUID
 
 The CPUID instruction can reveal whether the CPU is virtualized. For example:
+
 - **CPUID Check**: Calling CPUID with specific parameters and examining the results to determine if the system is running in a VM.
 
 ### User Interaction Example
 
 Malware might wait for specific user actions before executing its payload:
+
 - **Waiting for Mouse Movement**: The malware could delay execution until it detects mouse movement to ensure it is on a real user's system.
 
 ### Timing Attack Example
 
 Malware can implement sleep timers to evade detection:
+
 - **Extended Sleep**: Using sleep functions to pause execution for a duration longer than typical sandbox analysis periods.
 
 ## Anti-analysis Measures in Sandboxes
