@@ -114,8 +114,8 @@ nav:
     - 'Malware Identification': 'themes/806 MAI TOC - Malware Identification.md'
     - 'Dynamic Analysis': 'themes/807 MAI TOC - Dynamic Analysis.md'
     - 'Guest Lectures': 'themes/808 MAI TOC - Guest Lectures.md'
-    - 'Labs': 'themes/Malware Labs.md'
     - 'Exam Cookbook': 'themes/Malware Exam Cookbook.md'
+    - 'Malware Analysis Tools': 'themes/Malware Analysis Tools.md'
   - 'Exploiting and Defense':
     - 'Index': 'themes/900 ED MOC.md'
     - 'Introduction': 'themes/901 ED TOC - Introduction.md'

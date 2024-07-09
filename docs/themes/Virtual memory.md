@@ -23,6 +23,7 @@ links: [[802 MAI TOC - Windows & OS background|MAI TOC - Windows & OS background
 ![[virtmem_highlevel_userspace.png]]
 
 **Contents of User Space (showed by vmmap)**
+
   - **Image**: Executable files loaded into a process by the image loader.
   - **Mapped File**: Files on disk shared across processes.
   - **Shareable Memory**: Memory that can be shared with other processes.
