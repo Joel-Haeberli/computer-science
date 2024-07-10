@@ -14,6 +14,7 @@ links: [[themes/000 Index|Index]]
 - **Topic 06**: [[themes/806 MAI TOC - Malware Identification|Malware Identification]]
 - **Topic 07**: [[themes/807 MAI TOC - Dynamic Analysis|Dynamic Analysis]]
 - **Topic 08**: [[themes/808 MAI TOC - Guest Lectures|Guest Lectures]]
+- [[MAI Labs]]
 - [[Malware Exam Cookbook|Exam Cookbook]]
 - [[Malware Analysis Tools]]
 
