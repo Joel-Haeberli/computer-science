@@ -1,6 +1,6 @@
-site_name: Computer Science
+site_name: Computer Science Docs
 # fix 404 error
-site_url: https://tbd.ch
+site_url: https://joel-haeberli.github.io/computer-science
 
 nav:
   - 'Index': 'themes/000 Index.md'
@@ -208,4 +208,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/janfuhrer/it-security-docs
     - icon: fontawesome/brands/github
-      link: https://github.com/Joel-Haeberli/it-security-docs
+      link: https://github.com/Joel-Haeberli/computer-science
