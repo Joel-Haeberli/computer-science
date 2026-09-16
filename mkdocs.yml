@@ -1,6 +1,6 @@
-site_name: IT-Security Docs
+site_name: Computer Science
 # fix 404 error
-site_url: https://docs.jf1.ch
+site_url: https://tbd.ch
 
 nav:
   - 'Index': 'themes/000 Index.md'
@@ -207,3 +207,5 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/janfuhrer/it-security-docs
+    - icon: fontawesome/brands/github
+      link: https://github.com/Joel-Haeberli/it-security-docs
