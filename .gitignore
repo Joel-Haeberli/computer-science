@@ -18,3 +18,9 @@ tags
 **/.obsidian/app.json
 # exclude local files
 */local
+# quartz
+node_modules
+public
+.quartz
+tsconfig.tsbuildinfo
+site
