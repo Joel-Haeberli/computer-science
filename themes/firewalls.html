@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Firewalls</title><meta charset="utf-8"/><link rel="preload" href="../index-bb6c1746.css" as="style"/><link rel="preload" href="../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Computer Science Docs"/><meta property="og:title" content="Firewalls"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Firewalls"/><meta name="twitter:description" content="tags: firewall host-security network-security Firewalls links: SPA TOC - Host &amp; Network Security - Index Security Classification Technical security \rightarrow System security \rightarrow host &amp; network security A better information system security can be achieved with: host-based security m..."/><meta property="og:description" content="tags: firewall host-security network-security Firewalls links: SPA TOC - Host &amp; Network Security - Index Security Classification Technical security \rightarrow System security \rightarrow host &amp; network security A better information system security can be achieved with: host-based security m..."/><meta property="og:image:alt" content="tags: firewall host-security network-security Firewalls links: SPA TOC - Host &amp; Network Security - Index Security Classification Technical security \rightarrow System security \rightarrow host &amp; network security A better information system security can be achieved with: host-based security m..."/><meta property="twitter:domain" content="joel-haeberli.github.io/computer-science"/><meta property="og:url" content="https://joel-haeberli.github.io/computer-science/themes/firewalls"/><meta property="twitter:url" content="https://joel-haeberli.github.io/computer-science/themes/firewalls"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="tags: firewall host-security network-security Firewalls links: SPA TOC - Host &amp; Network Security - Index Security Classification Technical security \rightarrow System security \rightarrow host &amp; network security A better information system security can be achieved with: host-based security m..."/><meta name="generator" content="Quartz"/><link href="../index-bb6c1746.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://joel-haeberli.github.io/computer-science/themes/firewalls-og-image.webp"/><meta property="og:image:url" content="https://joel-haeberli.github.io/computer-science/themes/firewalls-og-image.webp"/><meta name="twitter:image" content="https://joel-haeberli.github.io/computer-science/themes/firewalls-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="themes/firewalls" data-basepath="/computer-science"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Computer Science Docs</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-213" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-213" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../themes/">themes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Firewalls</a></div></nav><h1 class="article-title">Firewalls</h1><p show-comma="true" class="content-meta"><time datetime="2024-06-29T14:11:30.000Z">Jun 29, 2024</time><span>6 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><p>tags: <a href=".././tags/firewall" class="tag-link internal internal-link alias" data-slug="tags/firewall">firewall</a> <a href=".././tags/host-security" class="tag-link internal internal-link alias" data-slug="tags/host-security">host-security</a> <a href=".././tags/network-security" class="tag-link internal internal-link alias" data-slug="tags/network-security">network-security</a></p>
+<h1 id="firewalls">Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>links: <a href="../themes/605-spa-toc---host--and--network-security" class="internal internal-link alias" data-slug="themes/605-spa-toc---host--and--network-security">SPA TOC - Host &amp; Network Security</a> - <a href="../themes/000-index" class="internal internal-link alias" data-slug="themes/000-index">Index</a></p>
+<hr/>
+<h2 id="security-classification">Security Classification<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#security-classification" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Technical security <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> System security <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> host &amp; network security</li>
+</ul>
+<p>A better <strong>information system security</strong> can be achieved with:</p>
+<ul>
+<li><strong>host-based</strong> security mechanisms (system in a network)</li>
+<li><strong>network-based</strong> security mechanisms (subnets, network zones)</li>
+</ul>
+<h2 id="host-based-security-mechanisms">Host-based Security Mechanisms<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#host-based-security-mechanisms" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>operating system</strong>: updates, patches</li>
+<li><strong>host hardening</strong></li>
+<li><strong>host or personal firewall</strong>: securing incoming and outgoing network access</li>
+<li><strong>host intrusion detection an prevention/protection systems</strong>: HIDS/HIPS</li>
+<li><strong>recent virus and content scanner</strong></li>
+<li><strong>endpoint security/endpoint protection</strong></li>
+<li><strong>secure applications</strong>: designed and programmed to minimize security risk</li>
+<li><strong>centralized Security Information and Event Management (SIEM)</strong>: send audit, system and other logs to aSIEM</li>
+</ul>
+<h2 id="network-based-security-mechanisms">Network-based Security Mechanisms<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#network-based-security-mechanisms" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>network firewalls</strong>: protection of networks (subnets, segments, zones) against <strong>external attackers</strong></li>
+<li><strong>access control through active network devices</strong>: protection of networks against <strong>internal attackers</strong>
+<ul>
+<li>network intrusion detection and prevention systems (NIDS/NIPS)</li>
+<li>port based authentication, network access control (NAC)</li>
+</ul>
+</li>
+<li>use of centralized SIEM: also send firewall logs, access logs, IDS, flow data, …</li>
+</ul>
+<h2 id="host-or-personal-firewalls">Host or Personal Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#host-or-personal-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>monitors incoming and outgoing connections</li>
+<li>prevents host from port scans</li>
+<li><strong>limitations</strong>:
+<ul>
+<li>consumes resources, can be target of an attack</li>
+<li>if host is compromised, the firewall is also affected</li>
+</ul>
+</li>
+</ul>
+<h2 id="network-firewalls">Network Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#network-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>connects two or more network segments</li>
+<li>capability to control, log and deny packets (filter) and modify packets (mangle)</li>
+<li><strong>limitations</strong>
+<ul>
+<li>cannot protect against <strong>internal attackers</strong></li>
+<li>malware which came in through allowed applications</li>
+<li>secured or tunneling connections running through the firewall (IPsec, SSH, TLS)</li>
+</ul>
+</li>
+</ul>
+<h2 id="network-layer-firewall">Network layer firewall<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#network-layer-firewall" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>act on the network layer</li>
+<li>also named <strong>packet filters</strong> (drop unwanted packages)</li>
+<li>checking of the <strong>Header entries</strong>
+<ul>
+<li>traversed interfaces and direction: <code>eth0 inbound</code></li>
+<li>L2 <a href="../themes/important-header-fields#mac-header" class="internal internal-link alias" data-slug="themes/important-header-fields">MAC Header</a>:
+<ul>
+<li>source/destination address: <code>00:D0:20:34:4F:55</code></li>
+<li>ethertype: <code>0x800, 0x806, ...</code></li>
+<li>tag protocol identifier: <code>0x8100</code> followed by priority code point &amp; VLAN ID</li>
+</ul>
+</li>
+<li>L3 <a href="../themes/important-header-fields#ip-header" class="internal internal-link alias" data-slug="themes/important-header-fields">IP Header</a>/<a href="../themes/important-header-fields#icmp-header" class="internal internal-link alias" data-slug="themes/important-header-fields">ICMP</a>:
+<ul>
+<li>source/destination address: <code>192.168.1.10, 2001:620:500::1</code></li>
+<li>protocol/ next header: <code>1, 6, 17</code></li>
+<li>ICMP message types &amp; code: <code>0, 3/0, 8, 11/1, ...</code></li>
+</ul>
+</li>
+<li>L4 <a href="../themes/important-header-fields#tcp-header" class="internal internal-link alias" data-slug="themes/important-header-fields">TCP</a>/<a href="../themes/important-header-fields#udp-header" class="internal internal-link alias" data-slug="themes/important-header-fields">UDP</a>:
+<ul>
+<li>source/destination port: <code>22, 20, ...</code></li>
+<li>TCP control bits: <code>SYN, ACK, FIN, ...</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>packet fragmentation/reassembling
+<ul>
+<li>fragments of IP-packets must be reassembled before a reason check of the layer 4 headers can be done</li>
+<li>reassembling uses additional resources which is a target for <strong>DoS attacks</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="stateless-packet-filter">Stateless Packet Filter<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#stateless-packet-filter" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>not recording state information of connections and only filter according to <strong>predefined filter rules</strong></li>
+<li>less secure but more efficient than stateful packet filters</li>
+<li><strong>disadvantages</strong>: outdated, difficult configuration, packets cannot be modified</li>
+</ul>
+<p><em>Example for SSH Filter Rules</em></p>
+<p><img src="../themes/_media/slides/firewall/stateless-rules.png" alt width="auto" height="auto"/>
+<em>Example for SSH Filter Rules (Evaluating ACK-Flag)</em></p>
+<p><img src="../themes/_media/slides/firewall/stateless-rules2.png" alt width="auto" height="auto"/></p>
+<h3 id="stateful-packet-filter">Stateful Packet Filter<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#stateful-packet-filter" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>checking packets using <strong>predefined filter rules</strong></li>
+<li>recording state information of connections and <strong>modify filter rules dynamically</strong> to accept expected answer packets</li>
+<li>more efficient than application layer firewalls</li>
+<li>every connection requires a buffer place, inactive connections are released <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> accidentally disconnected connections can be prevented with “keep alive” packets (e.g. configure keep alive packets in Putty)</li>
+</ul>
+<p><img src="../themes/_media/slides/firewall/stateful-rule.png" alt width="auto" height="auto"/></p>
+<p><em>Example of a State Table</em></p>
+<p><img src="../themes/_media/slides/firewall/state-table.png" alt width="auto" height="auto"/></p>
+<h3 id="stateful-inspection-firewall--stateful-firewall">Stateful Inspection Firewall / Stateful Firewall<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#stateful-inspection-firewall--stateful-firewall" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>enhancement</strong> of stateful packet filters</li>
+<li>do <strong>stateful packet inspection (SPI)</strong> by analyzing and modifying the <strong>application layer content</strong> (content filtering, deep inspection)
+<ul>
+<li><strong>Deep inspection</strong>: examining not just the metadata of packets (as in traditional stateful inspection) but also their contents (protocol specific understanding, detection of advanced threats like worm, trojans, …)</li>
+</ul>
+</li>
+<li>can be done on unencrypted connections or encrypted connections terminating on the firewall</li>
+<li><strong>Advantages</strong>:
+<ul>
+<li>No more problem with certain types of attacks like TCP ACK packet without previous SYN</li>
+<li>No problem with protocols with dynamic port numbers (VoIP, Skype)</li>
+<li>No problem with ICMP</li>
+</ul>
+</li>
+</ul>
+<h3 id="next-generation-firewalls">Next Generation Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#next-generation-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Definition in 2003 from <em>Gartner</em></p>
+<ul>
+<li>can apply <strong>configuration modifications without interruptions</strong></li>
+<li>has an <strong>integrated intrusion preventions system (IPS)</strong></li>
+<li>provide <strong>application intelligence</strong>: applications and protocols can be securely identified in addition to port based only rules</li>
+<li>can <strong>consider external sources in rules</strong>: user information out of directory services or allow-/block-lists of IP addresses</li>
+<li>provide all features of traditional firewalls: packet filter, NAT, stateful inspection, VPN, …</li>
+<li>evolve into <strong>Unified Threat Management (UTM)</strong> firewalls</li>
+</ul>
+<h3 id="unified-threat-management-utm">Unified Threat Management UTM<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#unified-threat-management-utm" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Can perform multiple security functions within one single appliance:</p>
+<ul>
+<li>network firewall</li>
+<li>network intrusion prevention</li>
+<li>gateway antivirus (AV)</li>
+<li>gateway anti-spam</li>
+<li>VPN</li>
+<li>content filtering</li>
+<li>load balancing</li>
+<li>data leak prevention</li>
+<li>on-appliance reporting</li>
+</ul>
+<h3 id="threat-protection-firewalls">Threat Protection Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#threat-protection-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>enhancement of next generation firewalls</li>
+<li>can <strong>detect malicious content/code</strong> by
+<ul>
+<li>extracting and executing the content/code in a <strong>sandbox environment</strong></li>
+<li>analyze the behavior and the outcomes</li>
+</ul>
+</li>
+<li>are relatively new, not much experience</li>
+<li>means of <strong>protection against Advanced Persistent Threats</strong> (APT: continuous computer hacking process, usually targets organizations or nations for business or political motives), malware and trojans</li>
+</ul>
+<h2 id="application-layer-firewalls">Application Layer Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#application-layer-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>unpack and analyze the content of the application layer protocol</li>
+<li>act as a <strong>relay station or proxy</strong> between sender and recipient</li>
+<li>allow an <strong>authentication and authorization</strong> of the communication <strong>on user level</strong></li>
+<li>are often referred to as:
+<ul>
+<li><strong>application layer/level gateway (ALG)</strong></li>
+<li><strong>proxy server</strong></li>
+<li><strong>application firewall</strong>: additionally take the header information from layer 2 up to layer 7 into account (something both terms above don’t do)</li>
+</ul>
+</li>
+</ul>
+<h3 id="alg-proxy-server-types">ALG/ Proxy Server Types<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#alg-proxy-server-types" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Dedicated proxy servers</strong>: specialized in dedicated application protocols (e.g. http, dns), can detect the abuse for tunneling other protocols (e.g. IP over DNS, P2P over HTTP), are complex</li>
+<li><strong>Generic proxy servers</strong>: used as a replacement of currently non-existing dedicated proxy servers, forwards the complete content without analyzing</li>
+<li><strong>Non-Transparent proxy servers</strong>: sender must send the packets directly to the proxy server, configuration inside the application/host system</li>
+<li><strong>Transparent proxy servers</strong>: transparent for client, no configuration needed</li>
+</ul>
+<p><strong>Advantages</strong>: good logging capabilities</p>
+<p><strong>Disadvantages</strong>: different specialized proxy servers, new protocols are not implemented directly, proxy server cannot fix security problems of protocols, break secured connects (<strong>man in the middle</strong>)</p>
+<h3 id="web-application-firewall-waf">Web Application Firewall (WAF)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#web-application-firewall-waf" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>special case of an application layer firewall</li>
+<li>protect web applications <strong>against attacks over HTTP/S</strong>:
+<ul>
+<li>Injection attacks: SQL, LDAP, script, cross-site scripting (XSS), …</li>
+<li>hidden field tampering</li>
+<li>parameter tampering</li>
+<li>cookie poisoning</li>
+<li>buffer overflow attacks</li>
+<li>forceful browsing</li>
+<li>unauthorized access to web servers</li>
+<li>known vulnerabilities of web applications (e.g. Log4J)</li>
+</ul>
+</li>
+</ul>
+<h2 id="dns-firewalls">DNS Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dns-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>also called <strong><a href="../themes/dns-response-policy-zones" class="internal internal-link alias" data-slug="themes/dns-response-policy-zones">Response Policy Zones (RPZ)</a></strong> firewalls</li>
+<li>able to allow, block or redirect connections based on DNS requests</li>
+<li>prevent clients from accessing malicious sites <span class="katex"><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">→</span></span></span></span> clients must use them as resolvers!</li>
+<li>cannot prevent connections if the client uses DoT (DNS over TLS) or DoH (DNS over HTTPS) on foreign DNS servers</li>
+<li>use blocklists from subscription services (free or paid)</li>
+</ul>
+<h2 id="hybrid-firewalls">Hybrid Firewalls<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#hybrid-firewalls" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>combine features of network layer firewalls and application layer firewalls</li>
+<li>“all in one” firewall design with multi device firewall architecture</li>
+<li><strong>state of the art firewalls</strong></li>
+</ul>
+<h2 id="design-of-a-firewall-environment">Design of a Firewall Environment<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#design-of-a-firewall-environment" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>only use devices which are <strong>intended to be used</strong></li>
+<li>create <strong>defense-in-depth</strong>: create multiple layers of security. If one layer becomes compromised, another layer is there to prevent the attack (e.g. use multiple firewalls, include products such as antimalware and intrusion detection software)</li>
+<li>pay attention to <strong>internal threats</strong></li>
+<li>document the firewall’s capabilities</li>
+</ul>
+<h3 id="components">Components<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#components" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Screened Host</strong></p>
+<p><img src="../themes/_media/slides/firewall/screened-host.png" alt width="auto" height="auto"/>
+<strong>Screened Subnet</strong></p>
+<p><img src="../themes/_media/slides/firewall/screened-subnet.png" alt width="auto" height="auto"/></p>
+<p><strong>Dual Homed Host</strong></p>
+<p><img src="../themes/_media/slides/firewall/dual-homed-host.png" alt width="auto" height="auto"/></p>
+<p><strong>Tri- &amp; Multi Homed Host</strong></p>
+<p><img src="../themes/_media/slides/firewall/tri-multi-homed-host.png" alt width="auto" height="auto"/></p>
+<p><strong>Security-Zones with Multi Homed Firewall</strong></p>
+<p><img src="../themes/_media/slides/firewall/security-zones-multi-homed.png" alt width="auto" height="auto"/></p>
+<p><strong>Security-Zones with multiple Firewalls</strong></p>
+<p><img src="../themes/_media/slides/firewall/security-zones-multiple-firewalls.png" alt width="auto" height="auto"/></p>
+<p><strong>Security-Zones with Firewalls and IDS/IPS</strong></p>
+<p>See <a href="../themes/ids--and--ips" class="internal internal-link alias" data-slug="themes/ids--and--ips">IDS &amp; IPS</a></p>
+<p><img src="../themes/_media/slides/firewall/security-zones-with-firewall-and-ids.png" alt width="auto" height="auto"/></p>
+<p><strong>Security-Zones with Firewalls, IDS/IPS and SIEM</strong></p>
+<p>See <a href="../themes/siem" class="internal internal-link" data-slug="themes/siem">SIEM</a></p>
+<p><img src="../themes/_media/slides/firewall/security-zones-with-siem.png" alt width="auto" height="auto"/></p>
+<p><strong>Firewalls for Virtual Infrastructure</strong></p>
+<ul>
+<li>a physical firewall is not able to control traffic between virtual hosts (not leaving the Hypervisor)</li>
+<li>some virtualization systems offer built-in firewalls or allow third-party software firewalls</li>
+</ul>
+<p><img src="../themes/_media/slides/firewall/virtual-firewall.png" alt width="auto" height="auto"/></p>
+<hr/>
+<p>links: <a href="../themes/605-spa-toc---host--and--network-security" class="internal internal-link alias" data-slug="themes/605-spa-toc---host--and--network-security">SPA TOC - Host &amp; Network Security</a> - <a href="../themes/000-index" class="internal internal-link alias" data-slug="themes/000-index">Index</a></p></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-115" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#firewalls" data-for="firewalls">Firewalls</a></li><li class="depth-1"><a href="#security-classification" data-for="security-classification">Security Classification</a></li><li class="depth-1"><a href="#host-based-security-mechanisms" data-for="host-based-security-mechanisms">Host-based Security Mechanisms</a></li><li class="depth-1"><a href="#network-based-security-mechanisms" data-for="network-based-security-mechanisms">Network-based Security Mechanisms</a></li><li class="depth-1"><a href="#host-or-personal-firewalls" data-for="host-or-personal-firewalls">Host or Personal Firewalls</a></li><li class="depth-1"><a href="#network-firewalls" data-for="network-firewalls">Network Firewalls</a></li><li class="depth-1"><a href="#network-layer-firewall" data-for="network-layer-firewall">Network layer firewall</a></li><li class="depth-2"><a href="#stateless-packet-filter" data-for="stateless-packet-filter">Stateless Packet Filter</a></li><li class="depth-2"><a href="#stateful-packet-filter" data-for="stateful-packet-filter">Stateful Packet Filter</a></li><li class="depth-2"><a href="#stateful-inspection-firewall--stateful-firewall" data-for="stateful-inspection-firewall--stateful-firewall">Stateful Inspection Firewall / Stateful Firewall</a></li><li class="depth-2"><a href="#next-generation-firewalls" data-for="next-generation-firewalls">Next Generation Firewalls</a></li><li class="depth-2"><a href="#unified-threat-management-utm" data-for="unified-threat-management-utm">Unified Threat Management UTM</a></li><li class="depth-2"><a href="#threat-protection-firewalls" data-for="threat-protection-firewalls">Threat Protection Firewalls</a></li><li class="depth-1"><a href="#application-layer-firewalls" data-for="application-layer-firewalls">Application Layer Firewalls</a></li><li class="depth-2"><a href="#alg-proxy-server-types" data-for="alg-proxy-server-types">ALG/ Proxy Server Types</a></li><li class="depth-2"><a href="#web-application-firewall-waf" data-for="web-application-firewall-waf">Web Application Firewall (WAF)</a></li><li class="depth-1"><a href="#dns-firewalls" data-for="dns-firewalls">DNS Firewalls</a></li><li class="depth-1"><a href="#hybrid-firewalls" data-for="hybrid-firewalls">Hybrid Firewalls</a></li><li class="depth-1"><a href="#design-of-a-firewall-environment" data-for="design-of-a-firewall-environment">Design of a Firewall Environment</a></li><li class="depth-2"><a href="#components" data-for="components">Components</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-0" class="overflow"><li><a href="../themes/605-spa-toc---host--and--network-security" class="internal">605 SPA TOC - Host &amp; Network Security</a></li><li><a href="../themes/connection-tracking-subsystem" class="internal">Connection Tracking Subsystem</a></li><li><a href="../themes/important-header-fields" class="internal">Important Header Fields</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript-551b937a.js" type="module" data-persist="true"></script></html>
