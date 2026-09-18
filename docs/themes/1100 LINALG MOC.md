@@ -1,14 +1,14 @@
-# Fuzzy Sets and Systems I
+# Linear Algebra
 
-tags: #msc #jmsc #fss
+tags: #msc #jmsc #linalg #math
 
-# FSSI MOC - Fuzzy Sets and Systems I
+# Linear Algebra
 
 links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 
 ---
 
-*
+
 
 ---
 links: [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]

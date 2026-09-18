@@ -17,14 +17,13 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 900s - [[900 ED MOC|Exploiting and Defense]]: write exploits and explore defences 
 
 1000s - [[1000 MSC MOC|Joint Master in Computer Science]]: Topics covered in the Master degree in Computer Science.
-1100s - [[1100 TDA MOC|Topological Data Analysis]]
+1100s - [[1100 LINALG MOC|Linear Algebra]]
 1200s - [[1200 MMLO MOC|Mathematical Modeling and Linear Optimization]]
 1300s - [[1300 DM MOC|Discrete Mathematics]]
 1400s - [[1400 ML MOC|Machine Learning]]
 1500s - [[1500 CCG MOC|Computergraphic]]
 1600s - [[1600 AO MOC|Applied Optimization]]
 1700s - [[1700 DA MOC|Distributed Algorithms]]
-1800s - [[1800 FSSI MOC|Fuzzy Sets and Systems I]]
 
 ### Main Keywords
 
@@ -40,15 +39,16 @@ Bachelor of Science content:
 - 800s - #malware-analysis 
 - 900s - #exploiting #asm #shellcode #overflow
 - Computability and Complexity - #computability-complexity
+- 1100s - #linalg
 - 1300s - #discrete
 - 1400s - #ml
 - 1500s - #ccg
-- 1600s - #ao #optimization
-- 1700s - #da #algorithm #distributed
 
 Master of Science content:
 
 - 1000s - #msc
-
+- 1200s - #mmlo
+- 1600s - #ao #optimization
+- 1700s - #da #algorithm #distributed
 
 [^1]: Introduction to Modern Cryptography, Third Edition (Chapman & Hall/Crc Cryptography and Network Security) by Jonathan Katz and Yehuda Lindell (ISBN: 780815354369)

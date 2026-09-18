@@ -8,7 +8,7 @@ links: [[themes/000 Index|Index]]
 
 ---
 
-* [[1100 TDA MOC|Topological Data Analysis MOC]]
+* [[1100 LINALG MOC|Linear Algebra MOC]]
 * [[1200 MMLO MOC|Mathematical Modeling and Linear Optimization MOC]]
 * [[1300 DM MOC|Discrete Mathematics]]
 * [[1400 ML MOC|Machine Learning]]
