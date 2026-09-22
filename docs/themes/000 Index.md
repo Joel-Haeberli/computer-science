@@ -16,14 +16,14 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 800s - [[800 MAI MOC|Malware analysis and intelligence]]: identification, execution, hooking, persistence  
 900s - [[900 ED MOC|Exploiting and Defense]]: write exploits and explore defences 
 
-1000s - [[1000 MSC MOC|Joint Master in Computer Science]]: Topics covered in the Master degree in Computer Science.
-1100s - [[1100 LINALG MOC|Linear Algebra]]
-1200s - [[1200 MMLO MOC|Mathematical Modeling and Linear Optimization]]
-1300s - [[1300 DM MOC|Discrete Mathematics]]
-1400s - [[1400 ML MOC|Machine Learning]]
-1500s - [[1500 CCG MOC|Computergraphic]]
-1600s - [[1600 AO MOC|Applied Optimization]]
-1700s - [[1700 DA MOC|Distributed Algorithms]]
+1000s - [[1000 MSC MOC|Joint Master in Computer Science]]: Topics covered in the Master degree in Computer Science. 
+1100s - [[1100 MATH MOC|Mathematics]]: A compilation of mathematical concepts used to understand what is going on. 
+1200s - [[1200 MMLO MOC|Mathematical Modeling and Linear Optimization]]: Course about modeling real world problems in mathematical models 
+1300s - [[1300 DM MOC|Discrete Mathematics]]: a bachelor course in discrete mathematics 
+1400s - [[1400 ML MOC|Machine Learning]]: a bachelor course about Machine Learning 
+1500s - [[1500 CCG MOC|Computergraphic]]: Understand the representation of colors and light in computers 
+1600s - [[1600 AO MOC|Applied Optimization]]: How can we optimize correctly? 
+1700s - [[1700 DA MOC|Distributed Algorithms]]: 
 
 ### Main Keywords
 
@@ -39,7 +39,7 @@ Bachelor of Science content:
 - 800s - #malware-analysis 
 - 900s - #exploiting #asm #shellcode #overflow
 - Computability and Complexity - #computability-complexity
-- 1100s - #linalg
+- 1100s - #linalg #analysis #math #basics 
 - 1300s - #discrete
 - 1400s - #ml
 - 1500s - #ccg

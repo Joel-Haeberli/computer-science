@@ -8,7 +8,8 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 
 ---
 
-* 
+* [[Modeling Basics]]
+* [[Julia]]
 
 ---
 links: [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]
