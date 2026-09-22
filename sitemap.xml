@@ -3,7 +3,7 @@
     <lastmod>2024-01-23T14:23:43.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/000-index</loc>
-    <lastmod>2026-09-18T14:13:37.000Z</lastmod>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/002-terms</loc>
     <lastmod>2024-01-24T14:18:25.000Z</lastmod>
@@ -24,7 +24,7 @@
     <lastmod>2023-06-29T14:15:38.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/1000-msc-moc</loc>
-    <lastmod>2026-09-18T14:13:37.000Z</lastmod>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/101-ac1-toc---intro</loc>
     <lastmod>2023-06-29T12:34:30.000Z</lastmod>
@@ -53,14 +53,14 @@
     <loc>https://joel-haeberli.github.io/computer-science/themes/109-ac1-toc---secret-sharing</loc>
     <lastmod>2023-06-29T12:34:30.000Z</lastmod>
   </url><url>
-    <loc>https://joel-haeberli.github.io/computer-science/themes/1100-linalg-moc</loc>
-    <lastmod>2026-09-18T14:13:37.000Z</lastmod>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/1100-math-moc</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/1200-mmlo-moc</loc>
-    <lastmod>2026-09-16T07:51:33.000Z</lastmod>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/1300-dm-moc</loc>
-    <lastmod>2026-09-16T07:51:33.000Z</lastmod>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/1400-ml-moc</loc>
     <lastmod>2026-09-18T14:13:37.000Z</lastmod>
@@ -335,6 +335,9 @@
     <loc>https://joel-haeberli.github.io/computer-science/themes/algorithm-of-euclid</loc>
     <lastmod>2023-07-12T14:51:01.000Z</lastmod>
   </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/analysis-moc</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
+  </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/anonymity---attacks</loc>
     <lastmod>2023-07-11T17:07:50.000Z</lastmod>
   </url><url>
@@ -557,6 +560,9 @@
     <loc>https://joel-haeberli.github.io/computer-science/themes/defining-your-assets</loc>
     <lastmod>2024-06-29T14:11:30.000Z</lastmod>
   </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/derivatives</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
+  </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/detailed-testing</loc>
     <lastmod>2024-06-29T14:11:30.000Z</lastmod>
   </url><url>
@@ -670,6 +676,9 @@
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/function-calls</loc>
     <lastmod>2024-06-30T13:19:58.000Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/functions</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/fuzzing</loc>
     <lastmod>2024-06-27T13:28:53.000Z</lastmod>
@@ -800,6 +809,9 @@
     <loc>https://joel-haeberli.github.io/computer-science/themes/intrusion-techniques</loc>
     <lastmod>2024-01-27T14:07:26.000Z</lastmod>
   </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/julia</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
+  </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/keccak</loc>
     <lastmod>2024-01-15T09:38:41.000Z</lastmod>
   </url><url>
@@ -875,6 +887,9 @@
     <loc>https://joel-haeberli.github.io/computer-science/themes/mass-surveillance</loc>
     <lastmod>2023-07-04T15:11:27.000Z</lastmod>
   </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/matrices</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
+  </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/memory-layout</loc>
     <lastmod>2024-06-30T13:19:58.000Z</lastmod>
   </url><url>
@@ -883,6 +898,9 @@
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/mobile-device-forensic</loc>
     <lastmod>2024-07-01T11:10:28.000Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/modeling-basics</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/modular-arithmetic</loc>
     <lastmod>2023-07-12T14:51:01.000Z</lastmod>
@@ -919,6 +937,9 @@
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/openvpn</loc>
     <lastmod>2024-01-24T10:02:56.000Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/optimization-basics</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/overview-of-digital-forensics</loc>
     <lastmod>2024-07-01T11:10:28.000Z</lastmod>
@@ -1217,6 +1238,9 @@
     <loc>https://joel-haeberli.github.io/computer-science/themes/vpn-overview</loc>
     <lastmod>2024-01-26T14:58:27.000Z</lastmod>
   </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/themes/vectors</loc>
+    <lastmod>2026-09-22T14:22:25.000Z</lastmod>
+  </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/themes/virtual-memory</loc>
     <lastmod>2024-07-09T09:28:59.000Z</lastmod>
   </url><url>
@@ -1293,743 +1317,758 @@
     <lastmod>2024-06-29T14:11:30.000Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ac1</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/symmetric</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ac2</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/asymmetric</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/math</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/cryptocurrency</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/web</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/network</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/security-tool</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/security-protocol</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/df</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/malware-analysis</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/exploiting</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/asm</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/shellcode</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/overflow</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/computability-complexity</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/linalg</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/tags/analysis</loc>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/tags/basics</loc>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/discrete</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ml</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ccg</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/msc</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/mmlo</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ao</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/optimization</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/da</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/algorithm</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/distributed</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/jmsc</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/modeling</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/dm</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/distributed-systems-security</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/blockchain</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/bitcoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/decentralization</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/protocol</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/scaling</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/exercise</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/web-security</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/broken-access-control</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/broken-authentication</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/crypto-failures</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/information-security</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/general</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/hacking</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/spa</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/linux</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/dns</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/lab</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/certificates</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/auth</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/smtp</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/yubikey</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/vpn</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/wireless</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/storage</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/acquisition</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/partition</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/filesystem</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/carving</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/artifact</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/tools</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/defense</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/introduction</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/cpu</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/intel</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/memory</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/syscalls</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/debugging</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/gdb</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/c</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/mitigation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/prevention</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/anti</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/secure-coding</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/fuzzing</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/hardware-exploitation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/cfi</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/guest-lecture</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/actors</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/attacks</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/hash</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/paring-based-cryptography</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/mixing</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/social</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/osi</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/aead</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/axolotl</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/forward-secrecy</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/future-secrecy</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/data-structure</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/authenticated-data-structure</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/gcm</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/encrypt-then-authenticate</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/best-practices</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/bitcoin-scripts</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/scripts</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/blinding</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/blind-signature</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/rsa</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ecb</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/cbc</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/obc</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ctr</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/browser</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/exploit</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/buffer</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/cca</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/attack</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/attacker-model</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/cpa</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/meta</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/injection</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/netfilter</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/iptables</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/nftables</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/xss</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/commitment</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/commitment-scheme</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/mac</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/pain</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/dht</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/name-system</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/recap</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/for-dummies</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/double-spending-attack</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/eav</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/elgamal</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/secure-mail</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/encryption</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/entropy</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ascii-armor</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/aslr-pie</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/aslr</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/pie</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/dep</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/depp</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/stack-canary</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/firewall</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/host-security</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/network-security</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/web-of-trust</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/fog-of-trust</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/forensics</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/bankcoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/naivecoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/serialnumbercoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/transactioncoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/electioncoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/proofofworkcoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/blockchaincoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/incentivecoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/difficultyadjustmentcoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/inputoutputcoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/simplifiedpaymentverificationcoin</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/function</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/gns</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/gnu</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/taler</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/gpg</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/heap</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/hooking</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ids</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ips</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/imf</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ip-sets</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/header-fields</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/infection</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/isms</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/intro</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/kerckhoff</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/historical-ciphers</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/tags/programming</loc>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/stream-cipher</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/keccak</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/sha-3</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/kdf</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/key-derivation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/high-high-entropy</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/private-key</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/mime</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/tags/matrices</loc>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/elf</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/pkcs</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/1</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/3</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/5</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/7</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/10</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/11</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/12</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/13</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/14</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/pbkdf</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/password</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/password-based-key-derivation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/low-high-entropy</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/puf</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/prime</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/computational-security</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/processes</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/pow</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/consens</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/proof-of-work</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/randomness</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/pseudorandom</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/rsa-pss</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/sign</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/verify</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/signature</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/rsa-oaep</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/rng</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/random-oracle</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/reinforcement</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/shake</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/siem</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ssh</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/schnorr</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/search-and-sort</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/secure-channel</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/repudiation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/non-repudiation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/otr</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/off-the-record</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/ibex</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/shadow</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/stack</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/perfect-secrecy</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/shannon</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/supervised</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/tls</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/iptable</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/linux-firewall</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/timelines</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/timestamp</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/timestamping</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/transaction</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/confirmation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/transaction-confirmation</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/tofu</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/distributed-systems</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/unsupervised</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
+  </url><url>
+    <loc>https://joel-haeberli.github.io/computer-science/tags/vectors</loc>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/wifi</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/wep</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/wpa</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/windows</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/zta</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/bpfilter</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url><url>
     <loc>https://joel-haeberli.github.io/computer-science/tags/</loc>
-    <lastmod>2026-09-18T14:14:28.980Z</lastmod>
+    <lastmod>2026-09-22T14:23:12.541Z</lastmod>
   </url></urlset>
