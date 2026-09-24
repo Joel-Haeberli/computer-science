@@ -8,8 +8,9 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 
 ## Linear Algebra
 
--  [[Vectors]]
--  [[Matrices]]
+- [[Vectors]]
+- [[Matrices]]
+- [[Special Matrices]]
 
 ## Analysis
 

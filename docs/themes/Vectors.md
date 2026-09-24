@@ -44,8 +44,15 @@ $$
 \end{aligned}
 $$
 
-### Dot Product
+### Scalar Product / Dot Product
 
+Definition of the scalar/dot product of two vectors $\vec{a}, \vec{b} \in \mathbb{R}^n$:
+
+$$
+\vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + ... + a_n b_n
+$$
+
+The rules for the scalar product are as follows:
 $$
 \begin{aligned}
 \vec{a} \cdot \vec{b} = \vec{b} \cdot \vec{a} &&& \text{Commutative Law}\\

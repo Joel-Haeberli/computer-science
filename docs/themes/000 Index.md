@@ -15,7 +15,6 @@ The Notes are based on the [[IMF Framework]] (get familiar with the concept firs
 700s - [[700 DF MOC|Digital Forensics]]: evidence, acquisition, storage, tools  
 800s - [[800 MAI MOC|Malware analysis and intelligence]]: identification, execution, hooking, persistence  
 900s - [[900 ED MOC|Exploiting and Defense]]: write exploits and explore defences 
-
 1000s - [[1000 MSC MOC|Joint Master in Computer Science]]: Topics covered in the Master degree in Computer Science. 
 1100s - [[1100 MATH MOC|Mathematics]]: A compilation of mathematical concepts used to understand what is going on. 
 1200s - [[1200 MMLO MOC|Mathematical Modeling and Linear Optimization]]: Course about modeling real world problems in mathematical models 

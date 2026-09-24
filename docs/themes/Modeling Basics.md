@@ -104,11 +104,11 @@ Notice: this is the optimal solution for a problem in which we minimize the obje
 
 ### Local Optimal Solution
 
-
+Defined by [[Functions#Local Extreme|Local Extreme]]
 
 ### Global Optimal Solution
 
-
+Defined by [[Functions#Global Extreme|Global Extreme]]
 
 ### Solver
 

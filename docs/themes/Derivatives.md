@@ -13,11 +13,19 @@ links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]] - [[themes/000 I
 
 ### Frequently used derivatives
 
+## Integration
+
 ## Gradient
 
 ## Partial Derivative
 
 ## Directional Derivative
+
+## Notations
+
+### Lagrange
+
+### Leibniz
 
 ---
 links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]
