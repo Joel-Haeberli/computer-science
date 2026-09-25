@@ -10,6 +10,19 @@ links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]] - [[themes/000 I
 
 Functions can have several properties. Properties describe characteristics of a function. These characteristics allow the creation of groups of functions. These groups then allows us to select feasible functions to solve problems in an easier way.
 
+### Monotonicity
+
+A function $f: \mathbb{R} \to \mathbb{R}$ is called monotonic if:
+
+$$
+\begin{aligned}
+\text{monotonically growing} &&& f(x) \leq f(x+1), x \in \mathbb{N} \\
+\text{strict monotonically growing} &&& f(x) < f(x+1), x \in \mathbb{N} \\
+\text{monotonically decreasing} &&& f(x) \geq f(x+1), x \in \mathbb{N} \\
+\text{strict monotonically decreasing} &&& f(x) > f(x+1), x \in \mathbb{N} \\
+\end{aligned}
+$$
+
 ### Linearity
 
 #### Formal Definition
@@ -93,8 +106,8 @@ Given a function $f: ]a,b[ \in \mathbb{R}$ a point $(x_0, f(x_0))$ is called a l
 
 $$
 \begin{aligned}
-\text{local maximum:} &&& f(x_0) \geq f(x), \forall x \in ]x_0 - \epsilon, x_0 + \epsilon [ \cap [a,b] \\
-\text{local minimum:} &&& f(x_0) \leq f(x), \forall x \in ]x_0 - \epsilon, x_0 + \epsilon [ \cap [a,b]
+\text{local maximum} &&& f(x_0) \geq f(x), \forall x \in ]x_0 - \epsilon, x_0 + \epsilon [ \cap [a,b] \\
+\text{local minimum} &&& f(x_0) \leq f(x), \forall x \in ]x_0 - \epsilon, x_0 + \epsilon [ \cap [a,b]
 \end{aligned}
 $$
 
@@ -104,10 +117,27 @@ A function $f: ]a,b[ \to \mathbb{R}$ reaches her global extreme $x_0$ if the fol
 
 $$
 \begin{aligned}
-\text{global maximum:} &&& f(x_0) \geq f(x), \forall x \in [a,b] \\
-\text{global minimum:} &&& f(x_0) \leq f(x), \forall x \in [a,b]
+\text{global maximum} &&& f(x_0) \geq f(x), \forall x \in [a,b] \\
+\text{global minimum} &&& f(x_0) \leq f(x), \forall x \in [a,b]
 \end{aligned}
 $$
+
+## Convergence / Limit
+
+To understand what a limit $\lim_{x \to c} f(x)$ of a function is, we need to know the convergence property of a function. The convergence of a function is defined as:
+
+$$
+|f(x) - a| < \epsilon, \text{for all x} \geq \mathbb{N}
+$$
+The coefficient $a$ is called the limit / limes of the function $f$ and is written as:
+
+$$
+\lim_{x \to \infty} f(x) = a
+$$
+Only functions which converge have a limit. All others do not.
+
+A function which does *not have a limit* and therefore does not converge, we say the function diverges and is therefore **divergent**.
+
 
 ---
 links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]

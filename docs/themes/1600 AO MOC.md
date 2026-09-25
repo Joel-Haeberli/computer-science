@@ -8,7 +8,8 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 
 ---
 
-*
+* [[Part I - Theoretical Foundations]]
+* 
 
 ---
 links: [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]

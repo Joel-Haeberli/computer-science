@@ -15,7 +15,11 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 ## Analysis
 
 - [[Functions]]
+- [[Special Functions]]
 - [[Derivatives]]
+- [[Integrations]]
+- [[Multivariable Functions]]
+- [[Notations]]
 
 ## Discrete Mathematics
 
