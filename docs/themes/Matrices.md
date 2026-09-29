@@ -119,7 +119,7 @@ $$
 A \in \mathbb{R}^{m \times n}, B \in \mathbb{R}^{n \times t}, m,n,t \in \mathbb{N} 
 $$
 
-The produc of the matrices $C = AB, (c_{ij} \in \mathbb{R}^{m \times t}$ can be created as follows:
+The product of the matrices $C = AB, (c_{ij} \in \mathbb{R}^{m \times t}$ can be created as follows:
 
 $$
 c_{ij} = a_{i1} b_{1j} + a_{i2} b_{2j} + ... + a_{in} b_{nj} = \sum_{k=1}^{n} a_{ik} b_{kj}
@@ -178,10 +178,24 @@ tr(A) = \sum_{i=1}^n a_{ii}, A \in \mathbb{R}^{n \times n}
 $$
 The trace might be denoted as: $tr(A) = trace(A) = spur(A)$
 
+### Symmetric Matrices
+
+A matrix $A$ is called symmetric when the following holds:
+
+$$
+A = A^T
+$$
+This also means that a matrix can only be symmetric when it is squared. We cannot transponse matrices which are not squared.
+
+A matrix with $A \neq A^T$ is called anti-symmetrical.
+
+### Fullrank Matrix
+
+ A matrix $A$ has full rank if for all rows $i$ the vector $\vec{r_i} \in A$ is **not** zero.
+
 ## Linear Equation Systems
 
 With the elimination process of Gauss we can solve linear equation systems by hand.
-
 
 ---
 links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]

@@ -108,10 +108,6 @@ ln'(x) = \frac{1}{x} \\
 \end{gather*}
 $$
 
-## Partial Derivative
-
-
-
 ## Directional Derivative
 
 

@@ -6,6 +6,8 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 
 ---
 
+Math seems to be an important basis for the studies in computer science. This MOC compiles elementary mathematical laws, rules and concepts.
+
 ## Linear Algebra
 
 - [[Vectors]]
@@ -20,6 +22,12 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 - [[Integrations]]
 - [[Multivariable Functions]]
 - [[Notations]]
+
+## Statistics & Probability
+
+- [[Random Variables]] 
+- [[Distributions]]
+- Combinatorics
 
 ## Discrete Mathematics
 

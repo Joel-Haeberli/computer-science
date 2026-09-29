@@ -12,7 +12,6 @@ links: [[themes/000 Index|Index]]
 * [[1400 ML MOC|Machine Learning]]
 * [[1500 CCG MOC|Computergraphics]]
 * [[1600 AO MOC|Applied Optimization]]
-* [[1700 DA MOC|Distributed Algorithms]]
 
 ---
 links: [[themes/000 Index|Index]]

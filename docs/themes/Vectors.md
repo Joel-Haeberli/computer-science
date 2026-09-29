@@ -62,9 +62,24 @@ $$
 \end{aligned}
 $$
 
-## Magnitude / Norm / Length
+When the dot product $\vec{a} \cdot \vec{b} = 0$ it means that the vectors $\vec{a}, \vec{b}$ are orthogonal to each other.
+
+## Magnitude / Norm / Length of a vector $\vec{a}$
 
 $\|\mathbf{\vec{a}}\| := \sqrt{\sum_{i=1}^{n} a_i} = \sqrt{a_1^2 + a_2^2 +\ ... + a_n^2}$ 
+
+## Cross Product
+
+$$
+\vec{c} = \vec{a} \times \vec{b} = 
+\begin{pmatrix}
+a_2 b_3 - a_3 b_2 \\
+a_3 b_1 - a_1 b_3 \\
+a_1 b_2 - a_2 b_1
+\end{pmatrix}
+$$
+
+When the cross product $\vec{a} \times \vec{b} = 0$ then the vectors $\vec{a}, \vec{b}$ are parallel / colinear.
 
 ## Unit Vector
 
