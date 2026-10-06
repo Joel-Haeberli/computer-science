@@ -22,6 +22,12 @@ A [[Functions|function]] $f$ is called [[Functions#Differentiability|differentia
 
 For the Leibniz [[Notations|notation]], read "Derivation of $f$, in respect to $x$"
 
+A function is called twice differentiable if besides the first-order derivative $f'$ also the second-order derivative $f''$ can be calculated. This is done by simply calculating the derivation of $f'$: $f'' = (f')'$ .
+
+A function is $n$ times differentiable if the n-th-order derivative can be constructed using this approach.
+
+The general rule is that a function of order $n$ is also $n$ times differentiable.
+
 ### Rules of derivation
 
 Let $f,g: D \to \mathbb{R}$ be [[Functions#Differentiability|differentiable]] for $x \in D$ and $\lambda \in \mathbb{R}$, then also the following functions are differentiable:

@@ -26,11 +26,12 @@ The output-vector $\mathcal{Y}$ (also *targets*), define the structure of the pr
 
 ## Cost function / Objective
 
-The cost function or also the objective function defines the difference of a perfect result $y$ and the corresponding result reached using the hypothesis function $h(x)$: $h(x) - y$. The lower this result is for $x \in \mathcal{X}, y \in \mathcal{Y}$, the better the hypothesis $h(x)$ fits the problem at hand. The cost function can be defined for a input and output vectors in general like:
+The cost function or also the objective function defines the difference of a perfect result $y$ and the corresponding result reached using the hypothesis function $h(x)$: $h(x) - y$. The lower this result is for $x \in \mathcal{X}, y \in \mathcal{Y}$, the better the hypothesis $h(x)$ fits the problem at hand. The cost function can be defined for input ($\mathcal{X}$) and output ($\mathcal{Y}$)  vectors in general like:
 
 $$
 J(\theta) = \frac{1}{2} \sum_{i = 1}^n (h_{\theta}(x^{(i)}) - y^{i})^2
 $$
+
 Be aware that this function depends on the weights $\theta$ and therefore directly implicates how we can solve the learning problem: We minimize the cost function / objective! The lower the deviation from an expected result, the better the model performs.
 
 ## Supervised Learning Algorithm

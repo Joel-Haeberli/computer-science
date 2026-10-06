@@ -17,7 +17,7 @@ F_X : &&&\mathbb{R} \to [0,1]\\
 \end{aligned}
 $$
 
-Each distribution has a weight function also called the discrete density (de:diskrete Dichte) of $X$ and is defined as
+Each **discrete** distribution has a weight function, which is also called the discrete density (de:diskrete Dichte) of $X$ and is defined as
 
 $$
 \begin{aligned}

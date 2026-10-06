@@ -66,7 +66,7 @@ $$
 
 To understand the formal definition of the differentiability, one must understand some rules and aspects of [[Derivatives|derivations]]. 
 
-That said, the differentiability of a function $f: \mathbb{R}^n \to \mathbb{R}$ is given, when $f$ is **[continuous](#continuity)** and the **directional derivative** exists for any $d \in \mathbb{R}^n$.
+That said, the differentiability of a function $f: \mathbb{R}^n \to \mathbb{R}$ is given, when $f$ is **[continuous](#continuity)** and the **directional derivative** exists for any $d \in \mathbb{R}^n$, $d$ a direction.
 
 ### Convexity
 
@@ -127,7 +127,7 @@ $$
 To understand what a limit $\lim_{x \to c} f(x)$ of a function is, we need to know the convergence property of a function. The convergence of a function is defined as:
 
 $$
-|f(x) - a| < \epsilon, \text{for all x} \geq \mathbb{N}
+|f(x) - a| < \epsilon, x \in \mathbb{D_f},\ \alpha, \epsilon \in \mathbb{R}
 $$
 The coefficient $a$ is called the limit / limes of the function $f$ and is written as:
 
