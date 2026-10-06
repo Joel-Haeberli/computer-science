@@ -27,7 +27,7 @@ Math seems to be an important basis for the studies in computer science. This MO
 
 - [[Random Variables]] 
 - [[Distributions]]
-- Combinatorics
+- [[Combinatorics]]
 
 ## Discrete Mathematics
 

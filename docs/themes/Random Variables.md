@@ -46,7 +46,7 @@ The expected value describes the most likely value when getting the next value f
 The variance $Var[X]$ of a random variable $X$ is defined as:
 
 $$
-Var(X) := \mathbb{E}[(X - \mathbb{E}[X])^2]
+Var(X) := \mathbb{E}[(X - \mathbb{E}[X])^2] = \mathbb{E}[X^2] - \mathbb{E}[X]^2
 $$
 The variance describes the mean squared deviation from the expected value of a random variable $X$.
 

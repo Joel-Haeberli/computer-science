@@ -52,6 +52,12 @@ $$
 \vec{a} \cdot \vec{b} = a_1 b_1 + a_2 b_2 + ... + a_n b_n
 $$
 
+There is a geometric definition of this which is:
+
+$$
+\vec{a} \cdot \vec{b} = ||\vec{a}|| \cdot ||\vec{b}|| \cdot cos(\alpha)
+$$
+
 The rules for the scalar product are as follows:
 $$
 \begin{aligned}
@@ -62,7 +68,7 @@ $$
 \end{aligned}
 $$
 
-When the dot product $\vec{a} \cdot \vec{b} = 0$ it means that the vectors $\vec{a}, \vec{b}$ are orthogonal to each other.
+When the dot product $\vec{a} \cdot \vec{b} = 0$ it means that the vectors $\vec{a}, \vec{b}$ are orthogonal / perpendicular to each other.
 
 ## Magnitude / Norm / Length of a vector $\vec{a}$
 
