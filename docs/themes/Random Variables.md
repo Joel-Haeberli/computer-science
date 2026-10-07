@@ -60,6 +60,14 @@ $$
 
 The covariance describes how similar the variance of two random variables $X$ and $Y$ is.
 
+## Standard-Deviation
+
+The standard deviation is $\sigma(X)$ is defined as
+
+$$
+\sigma(X) := \sqrt{Var(X)}
+$$
+
 ## Bayes's Rule
 
 The rule of Bayes allows to easily calculate the probability of a partition $B_j \in \Omega$ given an event $A \in \mathcal{A}$:
@@ -67,6 +75,7 @@ The rule of Bayes allows to easily calculate the probability of a partition $B_j
 $$
 \mathbb{P} (B_j | A) = \frac{\mathbb{P}(B_j)\mathbb{P}(A | B_j)}{\mathbb{P}(A)}
 $$
+More in depth: [[Probabilities#Bayes rule]]
 
 ## Dependency of variables
 

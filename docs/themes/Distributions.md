@@ -28,6 +28,8 @@ f_X : &&&\mathbb{R} \to [0,1]\\
 \end{aligned}
 $$
 
+### Continuous Distributions
+
 A **continuous** distribution on the other hand must have a positive function $f_X : \mathbb{R} \to [0, \infty[$ for which
 
 $$
@@ -163,30 +165,45 @@ $Var(X) = \lambda$
 ## Continuous Random Variables
 
 ### Uniform
-#### Definition 
+#### Definition $X \sim Unif$
 
 $$
-\mathbb{P}(X = x_k) =
+\mathbb{P}(X = x_k) := \frac{1}{|X|}, k = 1,...,|X|
 $$
+So the probability of an event $x_k \in X$ is the quotient of 1 to the number of all possible elements. The uniform distribution is also called Laplace-distribution. The graph is the constant $\frac{1}{n}, n = |X|$.
 
 #### Metrics
 
 ##### $\mathbb{E}[X]$
 
+$\mathbb{E}[X] = \frac{a_1 + a_2 + ... + a_n}{n}$
+
 ##### $Var(X)$
+
+For the definition of the variance of a continuously uniform distribution we need an interval $[a,b]$ (for which $f_X$ is differentiable on every $x \in [a,b], a < b$ ):
+
+$Var(X) = \frac{(b-a)^2}{12}, a,b \in \mathbb{R}, a < b$
 
 ### Exponential
-#### Definition 
+#### Definition $X \sim Exp(\lambda)$
 
 $$
-\mathbb{P}(X = x_k) =
+\mathbb{P}(X = x) = f_X(x) = 
+\begin{cases}
+0 &&& x < 0\\
+\lambda e^{-\lambda x} &&& x \geq 0
+\end{cases}
 $$
 
 #### Metrics
 
 ##### $\mathbb{E}[X]$
 
+$\mathbb{E}[X] = \frac{1}{\lambda}$
+
 ##### $Var(X)$
+
+$Var(X) = \frac{1}{\lambda^2}$
 
 ### Normal
 

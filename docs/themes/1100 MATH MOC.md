@@ -25,9 +25,9 @@ Math seems to be an important basis for the studies in computer science. This MO
 
 ## Statistics & Probability
 
+- [[Probabilities]]
 - [[Random Variables]] 
 - [[Distributions]]
-- [[Probabilities]]
 - [[Combinatorics]]
 
 ## Discrete Mathematics
