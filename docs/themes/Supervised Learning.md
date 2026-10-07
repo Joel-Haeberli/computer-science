@@ -10,7 +10,9 @@ links: [[1400 ML MOC|ML MOC]] - [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|In
 
 ## General 
 
-Supervised learning is the approach of training a predictor to predict a possible outcome $Y$ given the inputs $X$. $X$ is also called *features* and $Y$ the *target*. Supervised learning models are good fit if enough good (!) data is available to train a model using a training set which is a subset of all available data. The model will "learn" from the existing data to predict data in the future. The goal of supervised learning is to *find* / *learn* a function $h: \mathcal{X} \to \mathcal{Y}$, such that $h(x)$ predicts $y$ within an acceptable deviation. $h$ is also called the Hypothesis. When the *target* is continously distributed, we say that the learning problem is a regression problem. When the *target* is discretely distributed, the learning problem is called a classification problem.
+Supervised learning is the approach of training a predictor to predict a possible outcome $Y$ given the inputs $X$. $X$ is also called *features* and $Y$ the *target*. Supervised learning models are good fit if enough good (!) data is available to train a model using a training set which is a subset of all available data. The model will "learn" from the existing data to predict data in the future. The goal of supervised learning is to *find* / *learn* parameters $\theta$ of a function $h_{\theta}: \mathcal{X} \to \mathcal{Y}$, such that $h_{\theta}(x)$ predicts $y$ within an acceptable deviation. $h_{\theta}$ is also called the Hypothesis. 
+
+When the *target* is continously distributed, we say that the learning problem is a *regression problem*. When the *target* is discretely distributed, the learning problem is called a *classification problem*.
 
 ## Inputs / Features
 
@@ -36,7 +38,7 @@ Be aware that this function depends on the weights $\theta$ and therefore direct
 
 ## Supervised Learning Algorithm
 
-The general algorithm of supervised learning problems is as follows:
+The general algorithm of supervised learning problems is as follows (It's also called [[Principles of Estimation Optimization Methods#Gradient Descent|Gradient Descent (GD)]]):
 
 1. Initialize $\theta$  (can be random or any more sophisticated approach)
 2. Calculate objective and evaluate deviation constraints (is the result good enough?)

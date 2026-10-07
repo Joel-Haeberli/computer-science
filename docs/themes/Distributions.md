@@ -17,6 +17,8 @@ F_X : &&&\mathbb{R} \to [0,1]\\
 \end{aligned}
 $$
 
+### Discrete Distributions
+
 Each **discrete** distribution has a weight function, which is also called the discrete density (de:diskrete Dichte) of $X$ and is defined as
 
 $$
@@ -26,6 +28,16 @@ f_X : &&&\mathbb{R} \to [0,1]\\
 \end{aligned}
 $$
 
+A **continuous** distribution on the other hand must have a positive function $f_X : \mathbb{R} \to [0, \infty[$ for which
+
+$$
+\begin{aligned}
+F_X(a) = \int_{- \infty}^a f_X(x)dx, a \in \mathbb{R} \\
+\int_{- \infty}^\infty f_X(x)dx = 1
+\end{aligned}
+$$
+$f_X$ is called the density of $X$, $F_X$ is the distribution function
+### Misc
 
 An interesting fact is that thanks to 
 
@@ -177,17 +189,27 @@ $$
 ##### $Var(X)$
 
 ### Normal
-#### Definition 
+
+The normal distribution is also often called the Gauss-distribution
+#### Definition $X \sim \mathcal{N}(\mu, \sigma^2)$
 
 $$
-\mathbb{P}(X = x_k) =
+f_X(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{\frac{(x-\mu)^2}{2 \sigma^2}}
 $$
+Reminding you of the [[#General|definition of a continuous distribution]]. The $\mu$ shifts the middle of the curve on the x axis, while $\sigma^2$ reduces or increases the maximum height of the curve (flattens the curve or makes it peakier). $\mu$ is also called the *mean* and $\sigma^2$ is called the covariance. 
+
+When $\mu = 0$ and $\sigma^2 = 1$, then the distribution $\mathcal{N}(0, 1)$ is also called the standard normal distribution.
 
 #### Metrics
 
 ##### $\mathbb{E}[X]$
 
+$\mathbb{E}[X] = \mu$
+
 ##### $Var(X)$
+
+$Var(X) = \sigma^2$
+
 
 ---
 links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]

@@ -138,7 +138,7 @@ $I$ is the [[#Identity Matrix]]. $B$ is called to inverse (matrix) to $A$ and is
 
 ## Determinant
 
-The determinant $det(A)$ of a *quadratic* matrix $A \in \mathbb{R}^{n \times n}$ can tell us if a linear equation system has a solution or not. 
+The determinant $det(A)$ of a *quadratic* matrix $A \in \mathbb{R}^{n \times n}$ can tell us if a linear equation system has a solution or not. Also a determinant $det(A) > 0$ tells us that the matrix is invertible.  
 
 ### Definition
 
@@ -168,6 +168,7 @@ For quadratic matrices $A, B \in \mathbb{R}^{n \times n}$ holds:
 $$
 det(AB) = det(A) det(B)
 $$
+For squared matrices of any size $n \times n$ we can apply the Sarrus rule to find the determinant.
 
 ## Trace
 
