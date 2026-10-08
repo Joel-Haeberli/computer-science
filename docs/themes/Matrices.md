@@ -179,7 +179,25 @@ tr(A) = \sum_{i=1}^n a_{ii}, A \in \mathbb{R}^{n \times n}
 $$
 The trace might be denoted as: $tr(A) = trace(A) = spur(A)$
 
-### Symmetric Matrices
+## Diagonal
+
+$diag(A)$ for matrix $A$ is defined as the vector of all elements on the diagonal of the *squared* matrix $A$:
+
+$$
+A = 
+\begin{pmatrix}
+a_{11} &  & & \\
+ & a_{22} & & \\
+\vdots & \vdots &  \vdots & \vdots\\
+ & & & a_{nn} \\
+\end{pmatrix}
+\\
+\\
+\\
+diag(A) = (a_{11}, a_{22}, ..., a_{nn})
+$$
+
+## Symmetric Matrices
 
 A matrix $A$ is called symmetric when the following holds:
 
@@ -190,7 +208,7 @@ This also means that a matrix can only be symmetric when it is squared. We canno
 
 A matrix with $A \neq A^T$ is called anti-symmetrical.
 
-### Fullrank Matrix
+## Fullrank Matrix
 
  A matrix $A$ has full rank if for all rows $i$ the vector $\vec{r_i} \in A$ is **not** zero.
 

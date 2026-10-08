@@ -22,7 +22,7 @@ Minimizing errors (to be precise: minimize squared errors in respect to some exp
 
 Principle: Minimizing the error to some expected [[Supervised Learning#Outputs / Targets|target]] $t_x$
 
-[[Supervised Learning#Cost function / Objective|Objective Function]]: We assume minimizing a function representing an error in respect to some expected value is good enough for our estimation. This approach works but does most of the time not give satisfying results (because it is not very accurate). On the other hands it most of the time allows a closed-form solution which is very efficient computing wise.
+[[Supervised Learning#Cost function / Objective function / Loss function|Objective Function]]: We assume minimizing a function representing an error in respect to some expected value is good enough for our estimation. This approach works but does most of the time not give satisfying results (because it is not very accurate). On the other hands it most of the time allows a closed-form solution which is very efficient computing wise.
 
 Definition: $\theta_{LS} = argmin_{\theta}\ \sum_i\ (y_i - f_{\theta}(x_i))$
 
@@ -32,9 +32,9 @@ Maximizing the likelihood -> minimizing the loss (to 100% accuracy) by fitting t
 
 Principle: Minimizing a loss / delta to some expected [[Supervised Learning#Outputs / Targets|target]] $t_x$
 
-[[Supervised Learning#Cost function / Objective|Objective Function]]: Some "Likelihood" function (uses a [[Distributions|probability model]]). We first try to find out which [[Distributions|probabilistic distribution]] the data (training data) resembles to. Then we use this distribution and optimize it using an optimization algorithm. Using the a distribution to predict targets, will lead to some error. So in the end ML is just another way to minimize an error. But we do not start at the error, but with a probability model.
+[[Supervised Learning#Cost function / Objective function / Loss function|Objective Function]]: Some "Likelihood" function (uses a [[Distributions|probability model]]). We first try to find out which [[Distributions|probabilistic distribution]] the data (training data) resembles to. Then we use this distribution and optimize it using an optimization algorithm. Using the a distribution to predict targets, will lead to some error. So in the end ML is just another way to minimize an error. But we do not start at the error, but with a probability model.
 
-Definition: $\theta_{ML} = argmax_{\theta}\ P(\mathcal{Y}\ |\ \theta)$
+Definition: $\theta_{ML} = argmax_{\theta}\ P(y | \theta)$
 
 ## Optimization
 
@@ -86,6 +86,14 @@ $$
 $$
 
 We see that $(y_i - \theta_k \cdot x_i) \cdot x_i$ is the equal to $\nabla (y_i - \theta_k \cdot x_i)^2$ with respect to $\theta_k$.
+
+### Newton Method
+
+The Newton method is defined as 
+$$
+\theta_{k+1} = \theta - H^{-1} \nabla L(\theta_k)
+$$
+We can use this step-function instead of [[#Gradient Descent]]. $L$ must be twice differentiable in $\theta$ and the [[Special Matrices#Hessian Matrix|Hessian]] $H$ must be invertible and positive-definite. Also calculating $H$ or inverting it are very expensive operations.
 
 ## Estimation
 

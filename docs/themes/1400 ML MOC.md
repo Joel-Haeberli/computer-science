@@ -12,9 +12,10 @@ links: [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]
 * [[Supervised Learning]]
 	* [[Model selection and Regression]]
 	-  [[Principles of Estimation Optimization Methods]]
+	* [[Generative Learning]]
+		* [[Gaussian Discriminant Analysis]]
+		* [[Naive Bayes]]
 * [[Unsupervised Learning]]
-* [[Generative Learning]]
-	* [[Gaussian Discriminant Analysis]]
 * [[Reinforcement Learning]]
 
 ---
