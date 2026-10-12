@@ -103,7 +103,7 @@ $$
 For the case we have a partition with only two events $B, B^C \in \mathcal{A}$ then the rule of Bayes expands to
 
 $$
-P(B | A) = \frac{P(B)P(A|B)}{P(B)P(A|B)+P(B^C)P(A|B^C)}
+P(B | A) = \frac{P(B)P(A|B)}{P(B)P(A|B)+P(B^C)P(A|B^C)} = \frac{P(X | y = 1)P(y)}{P(X|y=1)P(y=1) + P(X | y=0)P(y=0)}
 $$
 
 ---

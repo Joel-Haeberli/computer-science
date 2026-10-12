@@ -207,7 +207,7 @@ $Var(X) = \frac{1}{\lambda^2}$
 
 ### Normal
 
-The normal distribution is also often called the Gauss-distribution
+The normal distribution is also often called the Gauss-distribution.
 #### Definition $X \sim \mathcal{N}(\mu, \sigma^2)$
 
 $$
@@ -215,7 +215,7 @@ f_X(x) = \frac{1}{\sigma \sqrt{2 \pi}}e^{\frac{(x-\mu)^2}{2 \sigma^2}}
 $$
 Reminding you of the [[#General|definition of a continuous distribution]]. The $\mu$ shifts the middle of the curve on the x axis, while $\sigma^2$ reduces or increases the maximum height of the curve (flattens the curve or makes it peakier). $\mu$ is also called the *mean* and $\sigma^2$ is called the covariance. 
 
-When $\mu = 0$ and $\sigma^2 = 1$, then the distribution $\mathcal{N}(0, 1)$ is also called the standard normal distribution.
+When $\mu = 0$ and $\sigma^2 = 1$, then the distribution **$\mathcal{N}(0, 1)$ is also called the** **standard normal distribution**.
 
 #### Metrics
 
@@ -227,6 +227,28 @@ $\mathbb{E}[X] = \mu$
 
 $Var(X) = \sigma^2$
 
+### Multivariate Normal Distribution
+
+The multivariate normal distribution is similar to the [[#Normal|normal distribution]]. In the case of the multivariate normal distribution, the parameters are [[Vectors]] and [[Matrices]].
+
+#### Definition $X \sim \mathcal{N}(\mu, \Sigma)$
+
+Be $\mu \in \mathbb{R}^d$ a mean vector and $\Sigma \in \mathbb{R}^{d \times d}$ symmetric positive definite covariance matrix:
+
+$$
+f_X(x) = \frac{1}{(2 \pi)^{\frac{d}{2}}|\Sigma|^{\frac{1}{2}}}exp(-\frac{1}{2}(x-\mu)^T \Sigma^{-1}(x-\mu) \\= \frac{1}{(2 \pi)^{\frac{d}{2}}|\Sigma|^{\frac{1}{2}}} e ^{-\frac{1}{2}(x-\mu)^T \Sigma^{-1}(x-\mu}
+$$
+$|\Sigma| = det(\Sigma)$ be the [[Matrices#Determinant|determinant]].
+
+#### Metrics
+
+##### $\mathbb{E}[X]$
+
+$\mathbb{E}[X] = \int_x x p(x; \mu, \Sigma)dx = \mu$
+
+##### $Cov(X)$
+
+$Cov(X) = \Sigma$ (hence the name in the definition)
 
 ---
 links: [[1100 MATH MOC|Mathematics]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]

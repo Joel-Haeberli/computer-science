@@ -66,6 +66,8 @@ The transposition of the matrix is like placing a mirror on the main diagonal of
 
 ## Matrix operations
 
+### Rules for addition and scalars
+
 Let $A, B, C \in \mathbb{R}^{m \times n}$ be three matrices and $\lambda, \eta \in \mathbb{R}$ then:
 
 $$
@@ -77,6 +79,35 @@ A - A = \mathbb{0} &&& \\
 \lambda(A + B) = \lambda A + \lambda B &&& \text{Distributive Law I}\\
 (\lambda + \eta) A = \lambda A + \eta A &&& \text{Distributive Law II}\\
 \lambda \eta A = \lambda (\eta A) &&& \\
+\end{aligned}
+$$
+
+### Rules for transponse matrices
+
+Let $A, B, C \in \mathbb{R}^{m \times n}$ be three matrices, $c \in \mathbb{R}$ scalar . Then:
+
+$$
+\begin{aligned}
+(A^T)^T = A &&& inversion \\
+(A+B)^T = A^T + B^T &&& additive \\
+(cA)^T = cA^T &&& \\\
+(AB)^T = B^TA^T &&& \text{order reverses}\\
+(ABC)^T = C^TB^TA^T &&&\\
+(A^{-1})^T = (A^T)^{-1} &&& \text{transponse and inverse are commutative}
+\end{aligned}
+$$
+### Rules for inverse matrices
+
+Let $A, B, C \in \mathbb{R}^{m \times n}$ be three matrices. Then
+
+$$
+\begin{aligned}
+AA^{-1} = A^{-1}A = I &&& be\ I\ the\ identity \\
+(A^{-1})^{-1} = A &&& inversion \\
+(AB)^{-1} = B^{-1}A^{-1} &&& order reverses \\
+(ABC)^{-1} = C^{-1}B^{-1}A^{-1} &&& \text{order reverses}\\
+(cA)^{-1} = \frac{1}{c}A^{-1} &&& c \neq 0 \\\
+(A^{-1})^T = (A^T)^{-1} &&& \text{transponse and inverse are commutative}
 \end{aligned}
 $$
 
@@ -211,6 +242,10 @@ A matrix with $A \neq A^T$ is called anti-symmetrical.
 ## Fullrank Matrix
 
  A matrix $A$ has full rank if for all rows $i$ the vector $\vec{r_i} \in A$ is **not** zero.
+
+## Eigenvalue
+
+Be $f: V \to V$ a linear function. Any $\lambda \in \mathbb{R}$ is called a Eigenvalue of matrix $A \in \mathbb{R}^{(n \times n)}$, if there exists a $\vec{v} \in V$ with $\vec{v} \neq \vec{0}$ and $f(\vec{v}) = \lambda \vec{v} = A\vec{v}$. Each $\lambda$ is called a Eigenvalue and each $\vec{v}$ is called a Eigenvector (with respect to $\lambda$). According to the definition 0 can never be a Eigenvalue.
 
 ## Linear Equation Systems
 

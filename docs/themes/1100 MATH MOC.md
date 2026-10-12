@@ -13,7 +13,6 @@ Math seems to be an important basis for the studies in computer science. This MO
 - [[Vectors]]
 - [[Matrices]]
 - [[Special Matrices]]
-
 ## Analysis
 
 - [[Functions]]

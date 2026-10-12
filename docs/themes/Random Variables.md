@@ -55,10 +55,16 @@ The variance describes the mean squared deviation from the expected value of a r
 The covariance of two random variables is defined as:
 
 $$
-cov(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]
+Cov(X, Y) = \mathbb{E}[(X - \mathbb{E}[X])(Y - \mathbb{E}[Y])]
 $$
 
 The covariance describes how similar the variance of two random variables $X$ and $Y$ is.
+
+For covariances using [[Vectors]] is generalized by
+
+$$
+Cov(X) = \mathbb{E}[(X - \mathbb{E}[X])](X-\mathbb{E}[X])^T = \mathbb{E}[XX^T] - (\mathbb{E}[X])(\mathbb{E}[X])^T
+$$
 
 ## Standard-Deviation
 

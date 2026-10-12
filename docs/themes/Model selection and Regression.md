@@ -18,7 +18,7 @@ For the regression models discussed the following process applies in all cases t
 
 1. We define a hypothesis / model $h_{\theta}(\mathcal{X}) = h(\mathcal{X}, \theta) = \mathcal{Y}$ which represents the form of the prediction
 2. Loss / Objective Function $L(\theta)$: Find / Define a loss / objective function given some (good) training data.
-3. Optimization: Estimate a good $\theta$ leveraging optimization using closed-form or GD
+3. Optimization: Estimate a good $\theta$ leveraging optimization using closed-form, GD or others over the loss function.
 	1. $\theta = argmin_{\theta_k} L(\theta_k)$
 4. Predict: use the optimized model to predict outputs for any inputs.
 
@@ -75,7 +75,7 @@ We can say that $y | x \sim Bernoulli(p)$ with $p = \sigma(\theta^T x + b)$. (Se
 $$
 L(\theta) = -\frac{1}{n} \sum_i^n [ y_i \lg (p_i) + (1-y_i) \lg (1-p_i)]
 $$
-Negative log-likelihood
+Negative log-likelihood, binary cross-entropy
 
 ### Softmax Regression
 
@@ -98,7 +98,7 @@ $$
 $$
 L(\theta) = - \sum_i^n \sum_k^{|K|} y_{ik}\ lg\ (p_{ik})
 $$
-Also a negative log-likelihood
+Also a negative log-likelihood, categorial cross-entropy
 
 ---
 links: [[1400 ML MOC|ML MOC]] - [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|Index]]

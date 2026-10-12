@@ -6,7 +6,9 @@ links: [[1400 ML MOC|ML MOC]] - [[1000 MSC MOC|MSc MOC]] - [[themes/000 Index|In
 
 ---
 
+## Naive Bayes
 
+## Laplace Smoothing
 
 ---
 links: [[1400 ML MOC|ML MOC]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]]
