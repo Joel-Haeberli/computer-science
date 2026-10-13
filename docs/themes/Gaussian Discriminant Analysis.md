@@ -19,5 +19,7 @@ x | y = 1 &\sim \mathcal{N}(\mu_2, \Sigma)
 $$
 We see that the model has the four parameters $\phi, \mu_1, \mu_2, \Sigma$ and that the [[Distributions#Bernoulli|Bernoulli distribution]] distributes the two classes. Each class has their own mean ($\mu_1, \mu_2$). The $\Sigma$ being the covariance matrix of both conditional probabilities is not necessary but a simplifying assumption the model makes.
 
+The GDA implies [[Model selection and Regression#Logistic Regression|Logistic Regression]] when deriving the GDA model for $P(y | x)$ and is therefore related to a [[Discriminative Learning]] model.
+
 ---
 links: [[1400 ML MOC|ML MOC]] - [[1000 MSC MOC|MSc MOC]]  - [[themes/000 Index|Index]] 

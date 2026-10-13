@@ -103,7 +103,16 @@ $$
 For the case we have a partition with only two events $B, B^C \in \mathcal{A}$ then the rule of Bayes expands to
 
 $$
-P(B | A) = \frac{P(B)P(A|B)}{P(B)P(A|B)+P(B^C)P(A|B^C)} = \frac{P(X | y = 1)P(y)}{P(X|y=1)P(y=1) + P(X | y=0)P(y=0)}
+P(B | A) = P(y=1|X) \\ \\
+P(B | A) = \frac{P(B)P(A|B)}{P(B)P(A|B)+P(B^C)P(A|B^C)} \\ \\
+P(y=1|X) = \frac{P(X | y = 1)P(y=1)}{P(X|y=1)P(y=1) + P(X | y=0)P(y=0)}
+$$
+#### Naive Bayes
+
+We can easily transform the general Bayes rule to the Naive Bayes $P(y = 1 | X)$. This special case of the Bayes rule assumes, that all elements in $X$ are conditionally independent. This allows to factorize the likelihood, which makes it usable in [[1400 ML MOC|ML]] context (see [[Gaussian Discriminant Analysis|GDA]] for example).
+
+$$
+P(y=1|X) = \frac{P(y=1)\Pi_i{P(x_i | y = 1)}}{\Pi_k P(y=k) \Pi_iP(x_i|y=k)}, x_i \in X, k \in Y
 $$
 
 ---
